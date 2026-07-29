@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Read-only bilingual digital marketing dashboard for internal decision support.">
+    <title>Robustel Digital Marketing Dashboard</title>
+    <style>
+      :root{color-scheme:light;font-family:Inter,"Noto Sans SC","Microsoft YaHei",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#f6f8fb;color:#172034}
+      *{box-sizing:border-box}html,body{width:100%;height:100%;margin:0;overflow:hidden}
+      button,a{font:inherit}.site-shell{display:grid;grid-template-rows:56px minmax(0,1fr);width:100vw;height:100vh}
+      .language-bar{z-index:5;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:8px 18px;color:#fff;background:#102746;box-shadow:0 2px 12px rgb(15 35 62 / 18%)}
+      .identity{display:flex;min-width:0;flex-direction:column}.identity strong{overflow:hidden;font-size:15px;text-overflow:ellipsis;white-space:nowrap}.identity span{color:#afc6e4;font-size:11px}
+      nav{display:flex;flex:0 0 auto;align-items:center;gap:6px}nav button,nav a{padding:7px 11px;border:1px solid rgb(255 255 255 / 24%);border-radius:8px;color:#dce9fa;background:transparent;cursor:pointer;text-decoration:none}
+      nav button:hover,nav a:hover,nav button.active{border-color:#72a7ed;color:#102746;background:#fff}.dashboard-frame{width:100%;height:100%;border:0;background:#fff}
+      @media(max-width:720px){.site-shell{grid-template-rows:52px minmax(0,1fr)}.language-bar{padding:7px 9px}.identity span,nav a{display:none}.identity strong{max-width:175px;font-size:13px}nav button{padding:6px 9px;font-size:12px}}
+    </style>
+  </head>
+  <body>
+    <main class="site-shell">
+      <header class="language-bar">
+        <div class="identity">
+          <strong id="site-title">Robustel 数字营销业务全景</strong>
+          <span id="site-note">只读内部看板</span>
+        </div>
+        <nav aria-label="Language switcher">
+          <button id="zh-button" class="active" type="button">中文</button>
+          <button id="en-button" type="button">English</button>
+          <a id="open-link" href="./zh.html" target="_blank" rel="noreferrer">新窗口打开</a>
+        </nav>
+      </header>
+      <iframe id="dashboard-frame" class="dashboard-frame" src="./zh.html" title="Robustel 数字营销业务全景"></iframe>
+    </main>
+    <script>
+      const dashboards={
+        zh:{src:"./zh.html",title:"Robustel 数字营销业务全景",note:"只读内部看板",open:"新窗口打开"},
+        en:{src:"./en.html",title:"Robustel Digital Marketing Story",note:"Read-only internal dashboard",open:"Open separately"}
+      };
+      const title=document.querySelector("#site-title");
+      const note=document.querySelector("#site-note");
+      const frame=document.querySelector("#dashboard-frame");
+      const link=document.querySelector("#open-link");
+      const zh=document.querySelector("#zh-button");
+      const en=document.querySelector("#en-button");
+      function selectLanguage(language){
+        const current=dashboards[language];
+        document.documentElement.lang=language==="zh"?"zh-CN":"en";
+        title.textContent=current.title;
+        note.textContent=current.note;
+        frame.src=current.src;
+        frame.title=current.title;
+        link.href=current.src;
+        link.textContent=current.open;
+        zh.classList.toggle("active",language==="zh");
+        en.classList.toggle("active",language==="en");
+      }
+      zh.addEventListener("click",()=>selectLanguage("zh"));
+      en.addEventListener("click",()=>selectLanguage("en"));
+    </script>
+  </body>
+</html>
