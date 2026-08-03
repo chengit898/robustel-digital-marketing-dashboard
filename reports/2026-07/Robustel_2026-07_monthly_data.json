@@ -1,0 +1,3408 @@
+{
+  "report": {
+    "period": "2026-07",
+    "comparison_period": "2026-06",
+    "start_date": "2026-07-01",
+    "end_date": "2026-07-31",
+    "data_cutoff": "2026-08-03",
+    "timezone": "Asia/Shanghai",
+    "currency": "USD",
+    "prepared_by": "Sharleen",
+    "status": "Green / 绿色"
+  },
+  "sources": [
+    {
+      "id": "S01",
+      "platform": "Google Ads API",
+      "period": "2026-07-01 to 2026-07-31",
+      "notes": "只读 account-level 查询；conversion 指标仅作参考。"
+    },
+    {
+      "id": "S02",
+      "platform": "GA4 API",
+      "period": "2026-06-01 to 2026-07-31",
+      "notes": "有效询盘事件固定为 generate_lead_thankyou。"
+    },
+    {
+      "id": "S03",
+      "platform": "Google Search Console API",
+      "period": "2026-07 vs 2026-06",
+      "notes": "站点为 sc-domain:robustel.com。"
+    },
+    {
+      "id": "S04",
+      "platform": "CRM / MQL CSV",
+      "period": "2026-07",
+      "notes": "Lead Type = MQL；不去重；报告和公开 JSON 不展示邮箱。"
+    },
+    {
+      "id": "S05",
+      "platform": "LinkedIn export",
+      "period": "2026-07 vs 2026-06",
+      "notes": "Excel 导出已转为 CSV 后聚合。"
+    }
+  ],
+  "mql": {
+    "months": {
+      "2026-06": 62,
+      "2026-07": 90
+    },
+    "countries": {
+      "2026-06": [
+        [
+          "Hong Kong",
+          6
+        ],
+        [
+          "United States",
+          5
+        ],
+        [
+          "United Kingdom",
+          5
+        ],
+        [
+          "India",
+          4
+        ],
+        [
+          "South Africa",
+          4
+        ],
+        [
+          "Saudi Arabia",
+          4
+        ],
+        [
+          "Australia",
+          3
+        ],
+        [
+          "Germany",
+          2
+        ],
+        [
+          "Nigeria",
+          2
+        ],
+        [
+          "Israel",
+          2
+        ],
+        [
+          "Brazil",
+          2
+        ],
+        [
+          "United Arab Emirates",
+          2
+        ],
+        [
+          "New Caledonia",
+          2
+        ],
+        [
+          "Slovakia",
+          1
+        ],
+        [
+          "Turkey",
+          1
+        ],
+        [
+          "Singapore",
+          1
+        ],
+        [
+          "Norway",
+          1
+        ],
+        [
+          "South Korea",
+          1
+        ],
+        [
+          "Egypt",
+          1
+        ],
+        [
+          "Ghana",
+          1
+        ]
+      ],
+      "2026-07": [
+        [
+          "United States",
+          9
+        ],
+        [
+          "India",
+          6
+        ],
+        [
+          "United Kingdom",
+          4
+        ],
+        [
+          "France",
+          4
+        ],
+        [
+          "Spain",
+          4
+        ],
+        [
+          "Mexico",
+          3
+        ],
+        [
+          "Australia",
+          3
+        ],
+        [
+          "Morocco",
+          3
+        ],
+        [
+          "United Arab Emirates",
+          3
+        ],
+        [
+          "Brazil",
+          3
+        ],
+        [
+          "Bahrain",
+          2
+        ],
+        [
+          "Uruguay",
+          2
+        ],
+        [
+          "Hong Kong",
+          2
+        ],
+        [
+          "Indonesia",
+          2
+        ],
+        [
+          "South Africa",
+          2
+        ],
+        [
+          "Oman",
+          2
+        ],
+        [
+          "Malaysia",
+          2
+        ],
+        [
+          "Singapore",
+          2
+        ],
+        [
+          "Senegal",
+          1
+        ],
+        [
+          "Qatar",
+          1
+        ]
+      ]
+    },
+    "industry_counts": [
+      [
+        "General Purchase / Review",
+        32
+      ],
+      [
+        "Telecom / IoT / Software Integration",
+        28
+      ],
+      [
+        "Energy / Utility / Environmental",
+        8
+      ],
+      [
+        "Industrial Automation / Robotics / EV",
+        8
+      ],
+      [
+        "Marine / Public Sector",
+        5
+      ],
+      [
+        "Building / Facility / Security",
+        3
+      ],
+      [
+        "Channel / Distribution",
+        2
+      ],
+      [
+        "Logistics / Transportation",
+        2
+      ],
+      [
+        "Food / Agriculture",
+        2
+      ]
+    ],
+    "tier_counts": {
+      "Review": 34,
+      "B": 42,
+      "A": 7,
+      "C": 2,
+      "A-": 5
+    },
+    "representatives": [
+      {
+        "month": "2026-07",
+        "company": "JLL",
+        "country": "United States",
+        "industry": "Building / Facility / Security",
+        "tier": "A"
+      },
+      {
+        "month": "2026-07",
+        "company": "Johnson Controls",
+        "country": "Hong Kong",
+        "industry": "Building / Facility / Security",
+        "tier": "A"
+      },
+      {
+        "month": "2026-07",
+        "company": "Camil Alimentos",
+        "country": "Brazil",
+        "industry": "Food / Agriculture",
+        "tier": "A"
+      },
+      {
+        "month": "2026-07",
+        "company": "DHL",
+        "country": "Colombia",
+        "industry": "Logistics / Transportation",
+        "tier": "A"
+      },
+      {
+        "month": "2026-07",
+        "company": "SEMAR",
+        "country": "Mexico",
+        "industry": "Marine / Public Sector",
+        "tier": "A"
+      },
+      {
+        "month": "2026-07",
+        "company": "NTT DATA",
+        "country": "Japan",
+        "industry": "Telecom / IoT / Software Integration",
+        "tier": "A"
+      },
+      {
+        "month": "2026-07",
+        "company": "SNGPL",
+        "country": "Pakistan",
+        "industry": "Telecom / IoT / Software Integration",
+        "tier": "A"
+      },
+      {
+        "month": "2026-07",
+        "company": "Applied EV",
+        "country": "Australia",
+        "industry": "Telecom / IoT / Software Integration",
+        "tier": "A-"
+      },
+      {
+        "month": "2026-07",
+        "company": "LORIOT",
+        "country": "France",
+        "industry": "Telecom / IoT / Software Integration",
+        "tier": "A-"
+      },
+      {
+        "month": "2026-07",
+        "company": "OQ Technology",
+        "country": "Luxembourg",
+        "industry": "Telecom / IoT / Software Integration",
+        "tier": "A-"
+      },
+      {
+        "month": "2026-07",
+        "company": "Progressive Impact Corporation",
+        "country": "Malaysia",
+        "industry": "Telecom / IoT / Software Integration",
+        "tier": "A-"
+      },
+      {
+        "month": "2026-07",
+        "company": "SAFEgroup Automation",
+        "country": "Australia",
+        "industry": "Telecom / IoT / Software Integration",
+        "tier": "A-"
+      },
+      {
+        "month": "2026-07",
+        "company": "Open Door Hospitality UK Limited",
+        "country": "United Kingdom",
+        "industry": "Building / Facility / Security",
+        "tier": "B"
+      },
+      {
+        "month": "2026-07",
+        "company": "AIS elsafy group",
+        "country": "Egypt",
+        "industry": "Energy / Utility / Environmental",
+        "tier": "B"
+      },
+      {
+        "month": "2026-07",
+        "company": "BRIGHT LINE ELECTRICAL TRADING CO. W.L.L",
+        "country": "Bahrain",
+        "industry": "Energy / Utility / Environmental",
+        "tier": "B"
+      },
+      {
+        "month": "2026-07",
+        "company": "NMN Communication",
+        "country": "Morocco",
+        "industry": "Energy / Utility / Environmental",
+        "tier": "B"
+      },
+      {
+        "month": "2026-07",
+        "company": "POWERTECH ENGINEERING SERVICES",
+        "country": "Senegal",
+        "industry": "Energy / Utility / Environmental",
+        "tier": "B"
+      },
+      {
+        "month": "2026-07",
+        "company": "Petrovision International LLC",
+        "country": "Oman",
+        "industry": "Energy / Utility / Environmental",
+        "tier": "B"
+      },
+      {
+        "month": "2026-07",
+        "company": "RAF-OJAKH LLC",
+        "country": "Armenia",
+        "industry": "Energy / Utility / Environmental",
+        "tier": "B"
+      },
+      {
+        "month": "2026-07",
+        "company": "Supsonik",
+        "country": "Spain",
+        "industry": "Energy / Utility / Environmental",
+        "tier": "B"
+      },
+      {
+        "month": "2026-07",
+        "company": "UWT Management &Consultancy W.L.L",
+        "country": "Bahrain",
+        "industry": "Energy / Utility / Environmental",
+        "tier": "B"
+      },
+      {
+        "month": "2026-07",
+        "company": "EASYMOV robotic",
+        "country": "France",
+        "industry": "Industrial Automation / Robotics / EV",
+        "tier": "B"
+      },
+      {
+        "month": "2026-07",
+        "company": "EASYMOV robotics (FORX)",
+        "country": "France",
+        "industry": "Industrial Automation / Robotics / EV",
+        "tier": "B"
+      },
+      {
+        "month": "2026-07",
+        "company": "Ets Ltd. Co.",
+        "country": "Vietnam",
+        "industry": "Industrial Automation / Robotics / EV",
+        "tier": "B"
+      },
+      {
+        "month": "2026-07",
+        "company": "JIR Industrial Controls and Services",
+        "country": "Philippines",
+        "industry": "Industrial Automation / Robotics / EV",
+        "tier": "B"
+      },
+      {
+        "month": "2026-07",
+        "company": "Mak Controls and Systems",
+        "country": "India",
+        "industry": "Industrial Automation / Robotics / EV",
+        "tier": "B"
+      },
+      {
+        "month": "2026-07",
+        "company": "NatNet Integration and Trade of Technology PLC",
+        "country": "Ethiopia",
+        "industry": "Industrial Automation / Robotics / EV",
+        "tier": "B"
+      },
+      {
+        "month": "2026-07",
+        "company": "PT Alfa Sinergindo Perkasa",
+        "country": "Indonesia",
+        "industry": "Industrial Automation / Robotics / EV",
+        "tier": "B"
+      },
+      {
+        "month": "2026-07",
+        "company": "RobotSkull.Al Private Limited",
+        "country": "India",
+        "industry": "Industrial Automation / Robotics / EV",
+        "tier": "B"
+      },
+      {
+        "month": "2026-07",
+        "company": "Alesagi Trading Limited",
+        "country": "Greece",
+        "industry": "Marine / Public Sector",
+        "tier": "B"
+      }
+    ]
+  },
+  "ads": {
+    "previous": {
+      "impressions": 55925,
+      "clicks": 3503,
+      "cost": 1785.5257669999999,
+      "conversions": 0.0,
+      "all_conversions": 64.763215,
+      "days": 26,
+      "dates": [
+        "2026-06-01",
+        "2026-06-02",
+        "2026-06-03",
+        "2026-06-04",
+        "2026-06-05",
+        "2026-06-06",
+        "2026-06-08",
+        "2026-06-09",
+        "2026-06-10",
+        "2026-06-11",
+        "2026-06-12",
+        "2026-06-13",
+        "2026-06-15",
+        "2026-06-16",
+        "2026-06-17",
+        "2026-06-18",
+        "2026-06-19",
+        "2026-06-20",
+        "2026-06-22",
+        "2026-06-23",
+        "2026-06-24",
+        "2026-06-25",
+        "2026-06-26",
+        "2026-06-27",
+        "2026-06-29",
+        "2026-06-30"
+      ],
+      "cpc": 0.5097133220097059,
+      "ctr": 0.06263746088511399
+    },
+    "current": {
+      "impressions": 37837,
+      "clicks": 2510,
+      "cost": 1295.349968,
+      "conversions": 0.0,
+      "all_conversions": 59.340182999999996,
+      "days": 27,
+      "dates": [
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-03",
+        "2026-07-04",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-11",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-18",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-25",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31"
+      ],
+      "cpc": 0.5160756844621514,
+      "ctr": 0.0663371831804847
+    }
+  },
+  "ga4": {
+    "previous": {
+      "sessions": 28626.0,
+      "engaged_sessions": 9259.0,
+      "total_users": 25519.0,
+      "new_users": 21453.0,
+      "key_events": 1202.0,
+      "generate_lead_thankyou": 80.0,
+      "user_engagement_duration": 664854.0,
+      "engagement_rate": 0.323447215817788
+    },
+    "current": {
+      "sessions": 30141.0,
+      "engaged_sessions": 10429.0,
+      "total_users": 26919.0,
+      "new_users": 22903.0,
+      "key_events": 1738.0,
+      "generate_lead_thankyou": 101.0,
+      "user_engagement_duration": 724915.0,
+      "engagement_rate": 0.34600709996350487
+    }
+  },
+  "gsc": {
+    "property": "sc-domain:robustel.com",
+    "periods": {
+      "previous": {
+        "label": "2026-06",
+        "start": "2026-06-01",
+        "end": "2026-06-30"
+      },
+      "current": {
+        "label": "2026-07",
+        "start": "2026-07-01",
+        "end": "2026-07-31"
+      }
+    },
+    "source": "Google Search Console Search Analytics API",
+    "summary": {
+      "previous": {
+        "clicks": 5745.0,
+        "impressions": 298565.0,
+        "ctr": 0.019242041096578635,
+        "position": 11.317763301123708
+      },
+      "current": {
+        "clicks": 5695.0,
+        "impressions": 299632.0,
+        "ctr": 0.019006648155070218,
+        "position": 11.707264244139477
+      }
+    },
+    "daily": {
+      "previous": [
+        {
+          "date": "2026-06-01",
+          "clicks": 218.0,
+          "impressions": 9575.0,
+          "ctr": 0.02276762402088773,
+          "position": 11.051383812010444
+        },
+        {
+          "date": "2026-06-02",
+          "clicks": 291.0,
+          "impressions": 10011.0,
+          "ctr": 0.02906802517231046,
+          "position": 10.242633103586055
+        },
+        {
+          "date": "2026-06-03",
+          "clicks": 244.0,
+          "impressions": 9792.0,
+          "ctr": 0.024918300653594773,
+          "position": 10.581801470588236
+        },
+        {
+          "date": "2026-06-04",
+          "clicks": 237.0,
+          "impressions": 9542.0,
+          "ctr": 0.024837560259903583,
+          "position": 9.704674072521485
+        },
+        {
+          "date": "2026-06-05",
+          "clicks": 134.0,
+          "impressions": 8073.0,
+          "ctr": 0.01659853833766877,
+          "position": 11.460919113093027
+        },
+        {
+          "date": "2026-06-06",
+          "clicks": 57.0,
+          "impressions": 6698.0,
+          "ctr": 0.00851000298596596,
+          "position": 12.618692146909526
+        },
+        {
+          "date": "2026-06-07",
+          "clicks": 76.0,
+          "impressions": 7363.0,
+          "ctr": 0.010321879668613337,
+          "position": 11.621214179003124
+        },
+        {
+          "date": "2026-06-08",
+          "clicks": 219.0,
+          "impressions": 10594.0,
+          "ctr": 0.020672078535019824,
+          "position": 10.511138380215217
+        },
+        {
+          "date": "2026-06-09",
+          "clicks": 220.0,
+          "impressions": 10335.0,
+          "ctr": 0.021286889211417512,
+          "position": 10.309240445089502
+        },
+        {
+          "date": "2026-06-10",
+          "clicks": 278.0,
+          "impressions": 11702.0,
+          "ctr": 0.02375662279952145,
+          "position": 10.933173816441634
+        },
+        {
+          "date": "2026-06-11",
+          "clicks": 263.0,
+          "impressions": 10721.0,
+          "ctr": 0.024531293722600503,
+          "position": 9.419363865311071
+        },
+        {
+          "date": "2026-06-12",
+          "clicks": 157.0,
+          "impressions": 9590.0,
+          "ctr": 0.016371220020855056,
+          "position": 10.401459854014599
+        },
+        {
+          "date": "2026-06-13",
+          "clicks": 61.0,
+          "impressions": 7973.0,
+          "ctr": 0.0076508215226389065,
+          "position": 11.791797315941302
+        },
+        {
+          "date": "2026-06-14",
+          "clicks": 108.0,
+          "impressions": 8334.0,
+          "ctr": 0.012958963282937365,
+          "position": 11.420806335493161
+        },
+        {
+          "date": "2026-06-15",
+          "clicks": 243.0,
+          "impressions": 11260.0,
+          "ctr": 0.02158081705150977,
+          "position": 10.967495559502664
+        },
+        {
+          "date": "2026-06-16",
+          "clicks": 239.0,
+          "impressions": 12338.0,
+          "ctr": 0.01937104879234884,
+          "position": 10.546603987680337
+        },
+        {
+          "date": "2026-06-17",
+          "clicks": 241.0,
+          "impressions": 13040.0,
+          "ctr": 0.01848159509202454,
+          "position": 11.16111963190184
+        },
+        {
+          "date": "2026-06-18",
+          "clicks": 274.0,
+          "impressions": 11206.0,
+          "ctr": 0.024451186864179904,
+          "position": 10.086382295199
+        },
+        {
+          "date": "2026-06-19",
+          "clicks": 163.0,
+          "impressions": 8838.0,
+          "ctr": 0.018443086671192578,
+          "position": 11.11642905634759
+        },
+        {
+          "date": "2026-06-20",
+          "clicks": 65.0,
+          "impressions": 7749.0,
+          "ctr": 0.008388179119886437,
+          "position": 13.252806813782424
+        },
+        {
+          "date": "2026-06-21",
+          "clicks": 96.0,
+          "impressions": 8277.0,
+          "ctr": 0.011598405219282348,
+          "position": 12.221457049655672
+        },
+        {
+          "date": "2026-06-22",
+          "clicks": 261.0,
+          "impressions": 11794.0,
+          "ctr": 0.022129896557571648,
+          "position": 12.39494658300831
+        },
+        {
+          "date": "2026-06-23",
+          "clicks": 253.0,
+          "impressions": 12676.0,
+          "ctr": 0.01995897759545598,
+          "position": 13.15296623540549
+        },
+        {
+          "date": "2026-06-24",
+          "clicks": 285.0,
+          "impressions": 10807.0,
+          "ctr": 0.026371796058110485,
+          "position": 11.886277412788008
+        },
+        {
+          "date": "2026-06-25",
+          "clicks": 246.0,
+          "impressions": 10690.0,
+          "ctr": 0.02301216089803555,
+          "position": 10.38933582787652
+        },
+        {
+          "date": "2026-06-26",
+          "clicks": 152.0,
+          "impressions": 9126.0,
+          "ctr": 0.01665570896340127,
+          "position": 12.616261231645847
+        },
+        {
+          "date": "2026-06-27",
+          "clicks": 48.0,
+          "impressions": 7593.0,
+          "ctr": 0.006321612011062821,
+          "position": 13.784143289872251
+        },
+        {
+          "date": "2026-06-28",
+          "clicks": 115.0,
+          "impressions": 9748.0,
+          "ctr": 0.011797291752154288,
+          "position": 13.493742306114076
+        },
+        {
+          "date": "2026-06-29",
+          "clicks": 232.0,
+          "impressions": 11819.0,
+          "ctr": 0.019629410271596582,
+          "position": 10.77832303917421
+        },
+        {
+          "date": "2026-06-30",
+          "clicks": 269.0,
+          "impressions": 11301.0,
+          "ctr": 0.023803203256348996,
+          "position": 11.564197858596584
+        }
+      ],
+      "current": [
+        {
+          "date": "2026-07-01",
+          "clicks": 239.0,
+          "impressions": 12007.0,
+          "ctr": 0.019905055384359122,
+          "position": 11.597151661530773
+        },
+        {
+          "date": "2026-07-02",
+          "clicks": 197.0,
+          "impressions": 11029.0,
+          "ctr": 0.017862000181340102,
+          "position": 11.145978783207907
+        },
+        {
+          "date": "2026-07-03",
+          "clicks": 156.0,
+          "impressions": 9918.0,
+          "ctr": 0.01572897761645493,
+          "position": 10.394837668884856
+        },
+        {
+          "date": "2026-07-04",
+          "clicks": 46.0,
+          "impressions": 7200.0,
+          "ctr": 0.006388888888888889,
+          "position": 12.627916666666666
+        },
+        {
+          "date": "2026-07-05",
+          "clicks": 104.0,
+          "impressions": 9052.0,
+          "ctr": 0.011489173663278833,
+          "position": 11.310207688908529
+        },
+        {
+          "date": "2026-07-06",
+          "clicks": 261.0,
+          "impressions": 11363.0,
+          "ctr": 0.02296928628003168,
+          "position": 10.630027281527765
+        },
+        {
+          "date": "2026-07-07",
+          "clicks": 261.0,
+          "impressions": 12192.0,
+          "ctr": 0.02140748031496063,
+          "position": 10.669045275590552
+        },
+        {
+          "date": "2026-07-08",
+          "clicks": 245.0,
+          "impressions": 11759.0,
+          "ctr": 0.020835105025937578,
+          "position": 10.79488051705077
+        },
+        {
+          "date": "2026-07-09",
+          "clicks": 209.0,
+          "impressions": 11087.0,
+          "ctr": 0.01885090646703346,
+          "position": 10.884098493731397
+        },
+        {
+          "date": "2026-07-10",
+          "clicks": 179.0,
+          "impressions": 15135.0,
+          "ctr": 0.011826891311529567,
+          "position": 11.115559960356789
+        },
+        {
+          "date": "2026-07-11",
+          "clicks": 65.0,
+          "impressions": 8267.0,
+          "ctr": 0.007862586186040885,
+          "position": 13.661787831135841
+        },
+        {
+          "date": "2026-07-12",
+          "clicks": 112.0,
+          "impressions": 9817.0,
+          "ctr": 0.011408780686564124,
+          "position": 12.37557298563716
+        },
+        {
+          "date": "2026-07-13",
+          "clicks": 225.0,
+          "impressions": 10475.0,
+          "ctr": 0.021479713603818614,
+          "position": 12.388639618138425
+        },
+        {
+          "date": "2026-07-14",
+          "clicks": 249.0,
+          "impressions": 10415.0,
+          "ctr": 0.023907825252040327,
+          "position": 11.927028324531925
+        },
+        {
+          "date": "2026-07-15",
+          "clicks": 225.0,
+          "impressions": 9740.0,
+          "ctr": 0.023100616016427104,
+          "position": 11.146303901437372
+        },
+        {
+          "date": "2026-07-16",
+          "clicks": 210.0,
+          "impressions": 8753.0,
+          "ctr": 0.023991774248828972,
+          "position": 10.893522220952816
+        },
+        {
+          "date": "2026-07-17",
+          "clicks": 176.0,
+          "impressions": 7463.0,
+          "ctr": 0.023583009513600428,
+          "position": 11.767117781053196
+        },
+        {
+          "date": "2026-07-18",
+          "clicks": 65.0,
+          "impressions": 5766.0,
+          "ctr": 0.011272979535206382,
+          "position": 13.713319458896983
+        },
+        {
+          "date": "2026-07-19",
+          "clicks": 101.0,
+          "impressions": 6610.0,
+          "ctr": 0.015279878971255673,
+          "position": 12.336157337367625
+        },
+        {
+          "date": "2026-07-20",
+          "clicks": 234.0,
+          "impressions": 9639.0,
+          "ctr": 0.02427637721755369,
+          "position": 10.314451706608569
+        },
+        {
+          "date": "2026-07-21",
+          "clicks": 236.0,
+          "impressions": 10136.0,
+          "ctr": 0.023283346487766376,
+          "position": 10.38713496448303
+        },
+        {
+          "date": "2026-07-22",
+          "clicks": 244.0,
+          "impressions": 9710.0,
+          "ctr": 0.02512873326467559,
+          "position": 10.622142121524202
+        },
+        {
+          "date": "2026-07-23",
+          "clicks": 265.0,
+          "impressions": 9134.0,
+          "ctr": 0.02901248084081454,
+          "position": 10.577293628202321
+        },
+        {
+          "date": "2026-07-24",
+          "clicks": 137.0,
+          "impressions": 7614.0,
+          "ctr": 0.01799317047543998,
+          "position": 12.219989493039138
+        },
+        {
+          "date": "2026-07-25",
+          "clicks": 54.0,
+          "impressions": 6706.0,
+          "ctr": 0.008052490307187594,
+          "position": 13.057560393677305
+        },
+        {
+          "date": "2026-07-26",
+          "clicks": 109.0,
+          "impressions": 6965.0,
+          "ctr": 0.01564967695620962,
+          "position": 13.461450107681264
+        },
+        {
+          "date": "2026-07-27",
+          "clicks": 259.0,
+          "impressions": 10361.0,
+          "ctr": 0.02499758710549175,
+          "position": 12.58604381816427
+        },
+        {
+          "date": "2026-07-28",
+          "clicks": 234.0,
+          "impressions": 11293.0,
+          "ctr": 0.020720800495882406,
+          "position": 12.624811830337377
+        },
+        {
+          "date": "2026-07-29",
+          "clicks": 259.0,
+          "impressions": 11140.0,
+          "ctr": 0.02324955116696589,
+          "position": 12.960771992818671
+        },
+        {
+          "date": "2026-07-30",
+          "clicks": 195.0,
+          "impressions": 10575.0,
+          "ctr": 0.018439716312056736,
+          "position": 13.113096926713949
+        },
+        {
+          "date": "2026-07-31",
+          "clicks": 144.0,
+          "impressions": 8311.0,
+          "ctr": 0.017326434845385635,
+          "position": 12.870051738659608
+        }
+      ]
+    },
+    "pages": {
+      "previous": [
+        {
+          "page": "https://robustel.com/",
+          "clicks": 745.0,
+          "impressions": 13256.0,
+          "ctr": 0.0562009656004828,
+          "position": 6.416415208207604
+        },
+        {
+          "page": "https://robustel.com/product/r1520/",
+          "clicks": 223.0,
+          "impressions": 4658.0,
+          "ctr": 0.04787462430227565,
+          "position": 3.868827823100043
+        },
+        {
+          "page": "https://robustel.com/product/r3000/",
+          "clicks": 171.0,
+          "impressions": 2986.0,
+          "ctr": 0.05726724715338245,
+          "position": 5.597119892833222
+        },
+        {
+          "page": "https://robustel.com/product/r1510/",
+          "clicks": 137.0,
+          "impressions": 1851.0,
+          "ctr": 0.07401404646137223,
+          "position": 4.877903835764451
+        },
+        {
+          "page": "https://robustel.com/product/r5020/",
+          "clicks": 120.0,
+          "impressions": 2018.0,
+          "ctr": 0.05946481665014866,
+          "position": 4.232903865213082
+        },
+        {
+          "page": "https://robustel.com/product/eg5120/",
+          "clicks": 112.0,
+          "impressions": 1225.0,
+          "ctr": 0.09142857142857143,
+          "position": 4.173061224489796
+        },
+        {
+          "page": "https://robustel.com/product/r3000-lite/",
+          "clicks": 104.0,
+          "impressions": 2194.0,
+          "ctr": 0.04740200546946217,
+          "position": 5.578851412944394
+        },
+        {
+          "page": "https://robustel.com/product/r2010/",
+          "clicks": 103.0,
+          "impressions": 1098.0,
+          "ctr": 0.09380692167577413,
+          "position": 6.89344262295082
+        },
+        {
+          "page": "https://robustel.com/products/routers/",
+          "clicks": 91.0,
+          "impressions": 7711.0,
+          "ctr": 0.011801322785630917,
+          "position": 8.785630916872002
+        },
+        {
+          "page": "https://robustel.com/product/ev8100/",
+          "clicks": 87.0,
+          "impressions": 924.0,
+          "ctr": 0.09415584415584416,
+          "position": 5.4004329004329
+        },
+        {
+          "page": "https://robustel.com/product/r5020-lite/",
+          "clicks": 85.0,
+          "impressions": 1737.0,
+          "ctr": 0.048934945308002305,
+          "position": 4.317213586643638
+        },
+        {
+          "page": "https://robustel.com/software/rcms/",
+          "clicks": 81.0,
+          "impressions": 2654.0,
+          "ctr": 0.030519969856819894,
+          "position": 4.409947249434815
+        },
+        {
+          "page": "https://robustel.com/product/r2011/",
+          "clicks": 79.0,
+          "impressions": 571.0,
+          "ctr": 0.138353765323993,
+          "position": 6.520140105078809
+        },
+        {
+          "page": "https://robustel.com/product/r1520-lg/",
+          "clicks": 70.0,
+          "impressions": 1292.0,
+          "ctr": 0.05417956656346749,
+          "position": 5.747678018575852
+        },
+        {
+          "page": "https://robustel.com/product/r2110/",
+          "clicks": 65.0,
+          "impressions": 992.0,
+          "ctr": 0.0655241935483871,
+          "position": 5.76008064516129
+        },
+        {
+          "page": "https://robustel.com/product/mg460-gateway/",
+          "clicks": 62.0,
+          "impressions": 793.0,
+          "ctr": 0.07818411097099622,
+          "position": 5.489281210592686
+        },
+        {
+          "page": "https://robustel.com/software/rcms/robustvpn/",
+          "clicks": 62.0,
+          "impressions": 757.0,
+          "ctr": 0.08190224570673713,
+          "position": 7.1690885072655215
+        },
+        {
+          "page": "https://robustel.com/product/r/",
+          "clicks": 60.0,
+          "impressions": 744.0,
+          "ctr": 0.08064516129032258,
+          "position": 6.956989247311828
+        },
+        {
+          "page": "https://robustel.com/product/r5010/",
+          "clicks": 58.0,
+          "impressions": 741.0,
+          "ctr": 0.07827260458839407,
+          "position": 5.348178137651822
+        },
+        {
+          "page": "https://robustel.com/es/",
+          "clicks": 58.0,
+          "impressions": 521.0,
+          "ctr": 0.11132437619961612,
+          "position": 3.942418426103647
+        },
+        {
+          "page": "https://support.robustel.com/portal/en/kb/articles/r1510-firmware-download",
+          "clicks": 51.0,
+          "impressions": 493.0,
+          "ctr": 0.10344827586206896,
+          "position": 6.434077079107505
+        },
+        {
+          "page": "https://robustel.com/product/r1520-global/",
+          "clicks": 50.0,
+          "impressions": 1500.0,
+          "ctr": 0.03333333333333333,
+          "position": 5.102
+        },
+        {
+          "page": "https://support.robustel.com/portal/en/home",
+          "clicks": 50.0,
+          "impressions": 1071.0,
+          "ctr": 0.04668534080298786,
+          "position": 4.901027077497666
+        },
+        {
+          "page": "https://support.robustel.com/portal/en/kb/articles/r1510-hardware-manual",
+          "clicks": 50.0,
+          "impressions": 965.0,
+          "ctr": 0.05181347150259067,
+          "position": 4.803108808290156
+        },
+        {
+          "page": "https://robustel.com/ja/",
+          "clicks": 50.0,
+          "impressions": 282.0,
+          "ctr": 0.1773049645390071,
+          "position": 4.198581560283688
+        },
+        {
+          "page": "https://robustel.com/product/m1200/",
+          "clicks": 45.0,
+          "impressions": 886.0,
+          "ctr": 0.050790067720090294,
+          "position": 6.286681715575621
+        },
+        {
+          "page": "https://support.robustel.com/portal/en/kb/articles/robustos-pro-uci-configuration-manual",
+          "clicks": 42.0,
+          "impressions": 1542.0,
+          "ctr": 0.027237354085603113,
+          "position": 7.237354085603113
+        },
+        {
+          "page": "https://support.robustel.com/portal/en/kb/articles/r3000-hardware-manual-11-11-2025",
+          "clicks": 42.0,
+          "impressions": 616.0,
+          "ctr": 0.06818181818181818,
+          "position": 5.608766233766234
+        },
+        {
+          "page": "https://robustel.com/product/m1000-mp/",
+          "clicks": 40.0,
+          "impressions": 590.0,
+          "ctr": 0.06779661016949153,
+          "position": 7.21864406779661
+        },
+        {
+          "page": "https://robustel.com/product/eg5200/",
+          "clicks": 38.0,
+          "impressions": 495.0,
+          "ctr": 0.07676767676767676,
+          "position": 9.018181818181818
+        },
+        {
+          "page": "https://robustel.com/modbus-rtu-to-tcp-gateway-function-a-basic-introduction/",
+          "clicks": 36.0,
+          "impressions": 4916.0,
+          "ctr": 0.007323026851098454,
+          "position": 6.266883645240033
+        },
+        {
+          "page": "https://robustel.com/what-is-a-lorawan-gateway-and-how-does-it-work/",
+          "clicks": 35.0,
+          "impressions": 11984.0,
+          "ctr": 0.0029205607476635513,
+          "position": 7.353304405874499
+        },
+        {
+          "page": "https://support.robustel.com/portal/en/kb/modem-router/r2000-series",
+          "clicks": 35.0,
+          "impressions": 625.0,
+          "ctr": 0.056,
+          "position": 5.28
+        },
+        {
+          "page": "https://robustel.com/products/gateways/lorawan-gateways/",
+          "clicks": 35.0,
+          "impressions": 522.0,
+          "ctr": 0.06704980842911877,
+          "position": 8.021072796934867
+        },
+        {
+          "page": "https://robustel.com/product/r2120/",
+          "clicks": 35.0,
+          "impressions": 473.0,
+          "ctr": 0.07399577167019028,
+          "position": 6.782241014799155
+        },
+        {
+          "page": "https://robustel.com/ja/what-is-a-lorawan-gateway-and-how-does-it-work/",
+          "clicks": 33.0,
+          "impressions": 965.0,
+          "ctr": 0.03419689119170984,
+          "position": 12.756476683937823
+        },
+        {
+          "page": "https://robustel.com/product/eg5100/",
+          "clicks": 33.0,
+          "impressions": 530.0,
+          "ctr": 0.062264150943396226,
+          "position": 5.009433962264151
+        },
+        {
+          "page": "https://robustel.com/products/gateways/",
+          "clicks": 31.0,
+          "impressions": 1882.0,
+          "ctr": 0.01647183846971307,
+          "position": 17.73219978746015
+        },
+        {
+          "page": "https://support.robustel.com/portal/en/kb/articles/r1520-firmware-download",
+          "clicks": 31.0,
+          "impressions": 117.0,
+          "ctr": 0.26495726495726496,
+          "position": 2.9743589743589745
+        },
+        {
+          "page": "https://robustel.com/products/",
+          "clicks": 27.0,
+          "impressions": 4059.0,
+          "ctr": 0.0066518847006651885,
+          "position": 3.436560729243656
+        },
+        {
+          "page": "https://robustel.com/fr/product/r1510/",
+          "clicks": 26.0,
+          "impressions": 103.0,
+          "ctr": 0.2524271844660194,
+          "position": 4.631067961165049
+        },
+        {
+          "page": "https://robustel.com/what-is-an-electrical-substation/",
+          "clicks": 25.0,
+          "impressions": 14565.0,
+          "ctr": 0.0017164435290078957,
+          "position": 7.003432887058016
+        },
+        {
+          "page": "https://robustel.com/building-a-private-lorawan-network-chirpstack-robustel-r1520lg/",
+          "clicks": 25.0,
+          "impressions": 3333.0,
+          "ctr": 0.007500750075007501,
+          "position": 6.96039603960396
+        },
+        {
+          "page": "https://robustel.com/es/product/r1520/",
+          "clicks": 25.0,
+          "impressions": 327.0,
+          "ctr": 0.0764525993883792,
+          "position": 4.467889908256881
+        },
+        {
+          "page": "https://robustel.com/understanding-iot-gateway-protocols-from-modbus-and-opc-ua-to-mqtt/",
+          "clicks": 24.0,
+          "impressions": 8340.0,
+          "ctr": 0.0028776978417266188,
+          "position": 5.285611510791367
+        },
+        {
+          "page": "https://robustel.com/cellular-modems-what-you-need-to-know/",
+          "clicks": 24.0,
+          "impressions": 6467.0,
+          "ctr": 0.003711148909850008,
+          "position": 8.717798051646822
+        },
+        {
+          "page": "https://robustel.com/product/eg5101/",
+          "clicks": 24.0,
+          "impressions": 230.0,
+          "ctr": 0.10434782608695652,
+          "position": 5.586956521739131
+        },
+        {
+          "page": "https://robustel.com/ja/product/r1510/",
+          "clicks": 24.0,
+          "impressions": 201.0,
+          "ctr": 0.11940298507462686,
+          "position": 3.9601990049751246
+        },
+        {
+          "page": "https://robustel.com/es/product/r1510/",
+          "clicks": 24.0,
+          "impressions": 153.0,
+          "ctr": 0.1568627450980392,
+          "position": 4.26797385620915
+        },
+        {
+          "page": "https://robustel.com/software/operating-systems/robustos/",
+          "clicks": 23.0,
+          "impressions": 752.0,
+          "ctr": 0.030585106382978722,
+          "position": 7.767287234042553
+        }
+      ],
+      "current": [
+        {
+          "page": "https://robustel.com/",
+          "clicks": 731.0,
+          "impressions": 9939.0,
+          "ctr": 0.07354864674514539,
+          "position": 7.695945266123353
+        },
+        {
+          "page": "https://robustel.com/product/r3000/",
+          "clicks": 209.0,
+          "impressions": 3572.0,
+          "ctr": 0.05851063829787234,
+          "position": 5.128499440089586
+        },
+        {
+          "page": "https://robustel.com/product/r1520/",
+          "clicks": 176.0,
+          "impressions": 4053.0,
+          "ctr": 0.04342462373550456,
+          "position": 4.482358746607451
+        },
+        {
+          "page": "https://robustel.com/product/r1510/",
+          "clicks": 152.0,
+          "impressions": 2248.0,
+          "ctr": 0.06761565836298933,
+          "position": 4.4488434163701065
+        },
+        {
+          "page": "https://robustel.com/product/r5020/",
+          "clicks": 121.0,
+          "impressions": 2334.0,
+          "ctr": 0.05184233076263925,
+          "position": 4.002142245072836
+        },
+        {
+          "page": "https://robustel.com/product/eg5120/",
+          "clicks": 121.0,
+          "impressions": 1559.0,
+          "ctr": 0.07761385503527903,
+          "position": 4.035920461834509
+        },
+        {
+          "page": "https://robustel.com/product/r2010/",
+          "clicks": 112.0,
+          "impressions": 1635.0,
+          "ctr": 0.06850152905198777,
+          "position": 6.247706422018348
+        },
+        {
+          "page": "https://robustel.com/software/rcms/",
+          "clicks": 105.0,
+          "impressions": 4093.0,
+          "ctr": 0.025653554849743465,
+          "position": 4.8585389689714145
+        },
+        {
+          "page": "https://robustel.com/product/r3000-lite/",
+          "clicks": 85.0,
+          "impressions": 2342.0,
+          "ctr": 0.036293766011955594,
+          "position": 5.540563620836892
+        },
+        {
+          "page": "https://robustel.com/product/r5020-lite/",
+          "clicks": 85.0,
+          "impressions": 1719.0,
+          "ctr": 0.04944735311227458,
+          "position": 4.421756835369401
+        },
+        {
+          "page": "https://robustel.com/products/routers/",
+          "clicks": 83.0,
+          "impressions": 7141.0,
+          "ctr": 0.011623021985716285,
+          "position": 8.823834196891191
+        },
+        {
+          "page": "https://robustel.com/product/r2110/",
+          "clicks": 71.0,
+          "impressions": 999.0,
+          "ctr": 0.07107107107107107,
+          "position": 6.4974974974974975
+        },
+        {
+          "page": "https://robustel.com/product/ev8100/",
+          "clicks": 71.0,
+          "impressions": 859.0,
+          "ctr": 0.08265424912689173,
+          "position": 4.857974388824214
+        },
+        {
+          "page": "https://robustel.com/software/rcms/robustvpn/",
+          "clicks": 66.0,
+          "impressions": 841.0,
+          "ctr": 0.07847800237812129,
+          "position": 7.95243757431629
+        },
+        {
+          "page": "https://robustel.com/what-is-a-lorawan-gateway-and-how-does-it-work/",
+          "clicks": 65.0,
+          "impressions": 10817.0,
+          "ctr": 0.00600905981325691,
+          "position": 8.003790330036054
+        },
+        {
+          "page": "https://support.robustel.com/portal/en/kb/articles/r3000-hardware-manual-11-11-2025",
+          "clicks": 61.0,
+          "impressions": 764.0,
+          "ctr": 0.07984293193717278,
+          "position": 5.602094240837697
+        },
+        {
+          "page": "https://robustel.com/product/r1520-lg/",
+          "clicks": 54.0,
+          "impressions": 1094.0,
+          "ctr": 0.04936014625228519,
+          "position": 6.99908592321755
+        },
+        {
+          "page": "https://support.robustel.com/portal/en/kb/articles/r1510-hardware-manual",
+          "clicks": 51.0,
+          "impressions": 1156.0,
+          "ctr": 0.04411764705882353,
+          "position": 4.736159169550173
+        },
+        {
+          "page": "https://robustel.com/product/m1200/",
+          "clicks": 51.0,
+          "impressions": 1032.0,
+          "ctr": 0.04941860465116279,
+          "position": 6.837209302325581
+        },
+        {
+          "page": "https://robustel.com/product/eg5100/",
+          "clicks": 50.0,
+          "impressions": 748.0,
+          "ctr": 0.06684491978609626,
+          "position": 5.409090909090909
+        },
+        {
+          "page": "https://robustel.com/product/r5010/",
+          "clicks": 49.0,
+          "impressions": 746.0,
+          "ctr": 0.06568364611260054,
+          "position": 7.089812332439679
+        },
+        {
+          "page": "https://support.robustel.com/portal/en/kb/articles/r1510-firmware-download",
+          "clicks": 48.0,
+          "impressions": 426.0,
+          "ctr": 0.11267605633802817,
+          "position": 4.431924882629108
+        },
+        {
+          "page": "https://robustel.com/product/mg460-gateway/",
+          "clicks": 46.0,
+          "impressions": 685.0,
+          "ctr": 0.06715328467153285,
+          "position": 6.418978102189781
+        },
+        {
+          "page": "https://robustel.com/product/r/",
+          "clicks": 45.0,
+          "impressions": 861.0,
+          "ctr": 0.05226480836236934,
+          "position": 6.504065040650406
+        },
+        {
+          "page": "https://support.robustel.com/portal/en/home",
+          "clicks": 41.0,
+          "impressions": 745.0,
+          "ctr": 0.05503355704697987,
+          "position": 7.259060402684564
+        },
+        {
+          "page": "https://robustel.com/modbus-rtu-to-tcp-gateway-function-a-basic-introduction/",
+          "clicks": 40.0,
+          "impressions": 4488.0,
+          "ctr": 0.008912655971479501,
+          "position": 5.654411764705882
+        },
+        {
+          "page": "https://robustel.com/product/m1000-mp/",
+          "clicks": 39.0,
+          "impressions": 640.0,
+          "ctr": 0.0609375,
+          "position": 8.8234375
+        },
+        {
+          "page": "https://robustel.com/es/",
+          "clicks": 39.0,
+          "impressions": 466.0,
+          "ctr": 0.08369098712446352,
+          "position": 6.3927038626609445
+        },
+        {
+          "page": "https://support.robustel.com/portal/en/kb/articles/r3000-firmware-download",
+          "clicks": 38.0,
+          "impressions": 355.0,
+          "ctr": 0.10704225352112676,
+          "position": 6.980281690140845
+        },
+        {
+          "page": "https://robustel.com/product/r1520-global/",
+          "clicks": 33.0,
+          "impressions": 1877.0,
+          "ctr": 0.017581246670218435,
+          "position": 4.937666489078317
+        },
+        {
+          "page": "https://robustel.com/ja/what-is-a-lorawan-gateway-and-how-does-it-work/",
+          "clicks": 33.0,
+          "impressions": 1087.0,
+          "ctr": 0.03035878564857406,
+          "position": 13.331186752529899
+        },
+        {
+          "page": "https://robustel.com/product/eg3120e-esim-edge-computing-gateway/",
+          "clicks": 33.0,
+          "impressions": 351.0,
+          "ctr": 0.09401709401709402,
+          "position": 4.789173789173789
+        },
+        {
+          "page": "https://robustel.com/product/r2120/",
+          "clicks": 32.0,
+          "impressions": 604.0,
+          "ctr": 0.052980132450331126,
+          "position": 8.203642384105962
+        },
+        {
+          "page": "https://support.robustel.com/portal/en/kb/modem-router/r2000-series",
+          "clicks": 32.0,
+          "impressions": 476.0,
+          "ctr": 0.06722689075630252,
+          "position": 6.369747899159663
+        },
+        {
+          "page": "https://robustel.com/products/",
+          "clicks": 31.0,
+          "impressions": 3808.0,
+          "ctr": 0.008140756302521009,
+          "position": 4.195640756302521
+        },
+        {
+          "page": "https://robustel.com/de/",
+          "clicks": 30.0,
+          "impressions": 348.0,
+          "ctr": 0.08620689655172414,
+          "position": 11.310344827586206
+        },
+        {
+          "page": "https://robustel.com/product/r2011/",
+          "clicks": 29.0,
+          "impressions": 561.0,
+          "ctr": 0.05169340463458111,
+          "position": 8.008912655971479
+        },
+        {
+          "page": "https://robustel.com/products/gateways/lorawan-gateways/",
+          "clicks": 29.0,
+          "impressions": 553.0,
+          "ctr": 0.05244122965641953,
+          "position": 11.054249547920435
+        },
+        {
+          "page": "https://robustel.com/fr/",
+          "clicks": 29.0,
+          "impressions": 206.0,
+          "ctr": 0.1407766990291262,
+          "position": 6.747572815533981
+        },
+        {
+          "page": "https://robustel.com/ja/",
+          "clicks": 28.0,
+          "impressions": 187.0,
+          "ctr": 0.1497326203208556,
+          "position": 3.855614973262032
+        },
+        {
+          "page": "https://robustel.com/building-a-private-lorawan-network-chirpstack-robustel-r1520lg/",
+          "clicks": 27.0,
+          "impressions": 2018.0,
+          "ctr": 0.013379583746283449,
+          "position": 5.8557978196233895
+        },
+        {
+          "page": "https://robustel.com/product/r5030/",
+          "clicks": 26.0,
+          "impressions": 501.0,
+          "ctr": 0.05189620758483034,
+          "position": 4.6227544910179645
+        },
+        {
+          "page": "https://robustel.com/product/lg3120e-lorawan-gateway/",
+          "clicks": 26.0,
+          "impressions": 303.0,
+          "ctr": 0.0858085808580858,
+          "position": 5.399339933993399
+        },
+        {
+          "page": "https://robustel.com/es/product/r3000/",
+          "clicks": 26.0,
+          "impressions": 265.0,
+          "ctr": 0.09811320754716982,
+          "position": 6.305660377358491
+        },
+        {
+          "page": "https://support.robustel.com/portal/en/kb/articles/r1520-firmware-download",
+          "clicks": 25.0,
+          "impressions": 120.0,
+          "ctr": 0.20833333333333334,
+          "position": 5.816666666666666
+        },
+        {
+          "page": "https://robustel.com/understanding-iot-gateway-protocols-from-modbus-and-opc-ua-to-mqtt/",
+          "clicks": 24.0,
+          "impressions": 6607.0,
+          "ctr": 0.0036325109732102314,
+          "position": 4.983805055244438
+        },
+        {
+          "page": "https://support.robustel.com/portal/en/kb/articles/how-to-configure-apn-for-the-cellular-network",
+          "clicks": 24.0,
+          "impressions": 995.0,
+          "ctr": 0.024120603015075376,
+          "position": 5.262311557788944
+        },
+        {
+          "page": "https://robustel.com/product/r3000-quad/",
+          "clicks": 24.0,
+          "impressions": 758.0,
+          "ctr": 0.0316622691292876,
+          "position": 6.8153034300791555
+        },
+        {
+          "page": "https://robustel.com/ja/product/r1510/",
+          "clicks": 24.0,
+          "impressions": 157.0,
+          "ctr": 0.15286624203821655,
+          "position": 4.585987261146497
+        },
+        {
+          "page": "https://robustel.com/cellular-modems-what-you-need-to-know/",
+          "clicks": 22.0,
+          "impressions": 6659.0,
+          "ctr": 0.003303799369274666,
+          "position": 9.614506682685088
+        }
+      ]
+    },
+    "queries": {
+      "previous": [
+        {
+          "query": "robustel",
+          "clicks": 608.0,
+          "impressions": 1864.0,
+          "ctr": 0.3261802575107296,
+          "position": 2.1276824034334765
+        },
+        {
+          "query": "robustel r1520",
+          "clicks": 92.0,
+          "impressions": 255.0,
+          "ctr": 0.3607843137254902,
+          "position": 1.3372549019607844
+        },
+        {
+          "query": "robustel r1510",
+          "clicks": 89.0,
+          "impressions": 279.0,
+          "ctr": 0.31899641577060933,
+          "position": 1.6953405017921148
+        },
+        {
+          "query": "robustel eg5120",
+          "clicks": 77.0,
+          "impressions": 192.0,
+          "ctr": 0.4010416666666667,
+          "position": 2.005208333333333
+        },
+        {
+          "query": "robustel r3000",
+          "clicks": 58.0,
+          "impressions": 218.0,
+          "ctr": 0.26605504587155965,
+          "position": 2.6788990825688073
+        },
+        {
+          "query": "robustel ev8100",
+          "clicks": 41.0,
+          "impressions": 78.0,
+          "ctr": 0.5256410256410257,
+          "position": 1.0
+        },
+        {
+          "query": "robustel r2010",
+          "clicks": 38.0,
+          "impressions": 82.0,
+          "ctr": 0.4634146341463415,
+          "position": 1.6707317073170733
+        },
+        {
+          "query": "robustel r5020",
+          "clicks": 33.0,
+          "impressions": 155.0,
+          "ctr": 0.2129032258064516,
+          "position": 5.7290322580645165
+        },
+        {
+          "query": "r1520",
+          "clicks": 31.0,
+          "impressions": 125.0,
+          "ctr": 0.248,
+          "position": 2.152
+        },
+        {
+          "query": "robustel router",
+          "clicks": 28.0,
+          "impressions": 120.0,
+          "ctr": 0.23333333333333334,
+          "position": 1.1666666666666667
+        },
+        {
+          "query": "r5020",
+          "clicks": 25.0,
+          "impressions": 146.0,
+          "ctr": 0.17123287671232876,
+          "position": 8.575342465753424
+        },
+        {
+          "query": "robustel m1200",
+          "clicks": 25.0,
+          "impressions": 72.0,
+          "ctr": 0.3472222222222222,
+          "position": 1.8055555555555556
+        },
+        {
+          "query": "robustel modem",
+          "clicks": 23.0,
+          "impressions": 135.0,
+          "ctr": 0.17037037037037037,
+          "position": 1.6148148148148147
+        },
+        {
+          "query": "robustel r1520lg",
+          "clicks": 22.0,
+          "impressions": 58.0,
+          "ctr": 0.3793103448275862,
+          "position": 2.0172413793103448
+        },
+        {
+          "query": "robustel r2011",
+          "clicks": 21.0,
+          "impressions": 48.0,
+          "ctr": 0.4375,
+          "position": 2.333333333333333
+        },
+        {
+          "query": "r1510-4l",
+          "clicks": 20.0,
+          "impressions": 97.0,
+          "ctr": 0.20618556701030927,
+          "position": 3.1649484536082473
+        },
+        {
+          "query": "robustel r",
+          "clicks": 20.0,
+          "impressions": 58.0,
+          "ctr": 0.3448275862068966,
+          "position": 1.4137931034482758
+        },
+        {
+          "query": "robustel rcms",
+          "clicks": 19.0,
+          "impressions": 72.0,
+          "ctr": 0.2638888888888889,
+          "position": 1.6944444444444444
+        },
+        {
+          "query": "robustel r5020 lite",
+          "clicks": 19.0,
+          "impressions": 56.0,
+          "ctr": 0.3392857142857143,
+          "position": 1.3928571428571428
+        },
+        {
+          "query": "robustel mg460",
+          "clicks": 18.0,
+          "impressions": 38.0,
+          "ctr": 0.47368421052631576,
+          "position": 1.763157894736842
+        },
+        {
+          "query": "r1510",
+          "clicks": 17.0,
+          "impressions": 145.0,
+          "ctr": 0.11724137931034483,
+          "position": 3.386206896551724
+        },
+        {
+          "query": "robustel routers",
+          "clicks": 17.0,
+          "impressions": 77.0,
+          "ctr": 0.22077922077922077,
+          "position": 1.7922077922077921
+        },
+        {
+          "query": "eg5120",
+          "clicks": 17.0,
+          "impressions": 48.0,
+          "ctr": 0.3541666666666667,
+          "position": 1.0
+        },
+        {
+          "query": "robustel r2000",
+          "clicks": 16.0,
+          "impressions": 111.0,
+          "ctr": 0.14414414414414414,
+          "position": 13.693693693693694
+        },
+        {
+          "query": "robustel 5g router",
+          "clicks": 16.0,
+          "impressions": 55.0,
+          "ctr": 0.2909090909090909,
+          "position": 1.509090909090909
+        },
+        {
+          "query": "robustel eg5100",
+          "clicks": 16.0,
+          "impressions": 46.0,
+          "ctr": 0.34782608695652173,
+          "position": 2.5869565217391304
+        },
+        {
+          "query": "r3000-4l",
+          "clicks": 15.0,
+          "impressions": 37.0,
+          "ctr": 0.40540540540540543,
+          "position": 1.3243243243243243
+        },
+        {
+          "query": "ロバステル",
+          "clicks": 15.0,
+          "impressions": 34.0,
+          "ctr": 0.4411764705882353,
+          "position": 1.0
+        },
+        {
+          "query": "robustel r3000 l4l",
+          "clicks": 15.0,
+          "impressions": 33.0,
+          "ctr": 0.45454545454545453,
+          "position": 1.3333333333333333
+        },
+        {
+          "query": "mg460",
+          "clicks": 14.0,
+          "impressions": 57.0,
+          "ctr": 0.24561403508771928,
+          "position": 2.614035087719298
+        },
+        {
+          "query": "r3000-l4l",
+          "clicks": 14.0,
+          "impressions": 35.0,
+          "ctr": 0.4,
+          "position": 1.0571428571428572
+        },
+        {
+          "query": "robustel eg5200",
+          "clicks": 14.0,
+          "impressions": 28.0,
+          "ctr": 0.5,
+          "position": 1.0
+        },
+        {
+          "query": "robustel r3000 lite",
+          "clicks": 14.0,
+          "impressions": 28.0,
+          "ctr": 0.5,
+          "position": 1.0
+        },
+        {
+          "query": "robustel r1510-4l",
+          "clicks": 13.0,
+          "impressions": 59.0,
+          "ctr": 0.22033898305084745,
+          "position": 2.4915254237288136
+        },
+        {
+          "query": "robustel r5010",
+          "clicks": 13.0,
+          "impressions": 59.0,
+          "ctr": 0.22033898305084745,
+          "position": 1.0
+        },
+        {
+          "query": "eg5200",
+          "clicks": 13.0,
+          "impressions": 43.0,
+          "ctr": 0.3023255813953488,
+          "position": 5.255813953488372
+        },
+        {
+          "query": "robustel r3000-l4l",
+          "clicks": 13.0,
+          "impressions": 36.0,
+          "ctr": 0.3611111111111111,
+          "position": 2.416666666666667
+        },
+        {
+          "query": "r1520 robustel",
+          "clicks": 13.0,
+          "impressions": 30.0,
+          "ctr": 0.43333333333333335,
+          "position": 1.0
+        },
+        {
+          "query": "rcms",
+          "clicks": 12.0,
+          "impressions": 1679.0,
+          "ctr": 0.00714711137581894,
+          "position": 4.739726027397261
+        },
+        {
+          "query": "r2010",
+          "clicks": 12.0,
+          "impressions": 144.0,
+          "ctr": 0.08333333333333333,
+          "position": 3.3402777777777777
+        },
+        {
+          "query": "robustel r3000-4l",
+          "clicks": 12.0,
+          "impressions": 39.0,
+          "ctr": 0.3076923076923077,
+          "position": 1.9743589743589745
+        },
+        {
+          "query": "robustel r1520 manual",
+          "clicks": 12.0,
+          "impressions": 21.0,
+          "ctr": 0.5714285714285714,
+          "position": 1.8095238095238095
+        },
+        {
+          "query": "robustel r3000 manual",
+          "clicks": 12.0,
+          "impressions": 16.0,
+          "ctr": 0.75,
+          "position": 1.0
+        },
+        {
+          "query": "lorawan gateway",
+          "clicks": 11.0,
+          "impressions": 2378.0,
+          "ctr": 0.004625735912531539,
+          "position": 11.882674516400336
+        },
+        {
+          "query": "rcms robustel",
+          "clicks": 11.0,
+          "impressions": 64.0,
+          "ctr": 0.171875,
+          "position": 1.59375
+        },
+        {
+          "query": "r",
+          "clicks": 11.0,
+          "impressions": 45.0,
+          "ctr": 0.24444444444444444,
+          "position": 1.511111111111111
+        },
+        {
+          "query": "robustel r2120",
+          "clicks": 11.0,
+          "impressions": 43.0,
+          "ctr": 0.2558139534883721,
+          "position": 1.7209302325581395
+        },
+        {
+          "query": "ev8100",
+          "clicks": 11.0,
+          "impressions": 25.0,
+          "ctr": 0.44,
+          "position": 1.08
+        },
+        {
+          "query": "r5010",
+          "clicks": 10.0,
+          "impressions": 144.0,
+          "ctr": 0.06944444444444445,
+          "position": 6.645833333333333
+        },
+        {
+          "query": "robustel firmware",
+          "clicks": 10.0,
+          "impressions": 30.0,
+          "ctr": 0.3333333333333333,
+          "position": 1.0
+        }
+      ],
+      "current": [
+        {
+          "query": "robustel",
+          "clicks": 610.0,
+          "impressions": 1866.0,
+          "ctr": 0.32690246516613075,
+          "position": 2.39924973204716
+        },
+        {
+          "query": "robustel r1520",
+          "clicks": 74.0,
+          "impressions": 222.0,
+          "ctr": 0.3333333333333333,
+          "position": 1.3423423423423424
+        },
+        {
+          "query": "robustel r1510",
+          "clicks": 67.0,
+          "impressions": 258.0,
+          "ctr": 0.2596899224806202,
+          "position": 1.3604651162790697
+        },
+        {
+          "query": "robustel eg5120",
+          "clicks": 64.0,
+          "impressions": 152.0,
+          "ctr": 0.42105263157894735,
+          "position": 1.2960526315789473
+        },
+        {
+          "query": "robustel r3000",
+          "clicks": 61.0,
+          "impressions": 211.0,
+          "ctr": 0.2890995260663507,
+          "position": 1.2511848341232228
+        },
+        {
+          "query": "robustel r5020",
+          "clicks": 47.0,
+          "impressions": 180.0,
+          "ctr": 0.2611111111111111,
+          "position": 3.716666666666667
+        },
+        {
+          "query": "robustel r2010",
+          "clicks": 39.0,
+          "impressions": 115.0,
+          "ctr": 0.3391304347826087,
+          "position": 2.991304347826087
+        },
+        {
+          "query": "rcms",
+          "clicks": 34.0,
+          "impressions": 2795.0,
+          "ctr": 0.012164579606440072,
+          "position": 4.9441860465116285
+        },
+        {
+          "query": "robustel router",
+          "clicks": 27.0,
+          "impressions": 126.0,
+          "ctr": 0.21428571428571427,
+          "position": 1.0158730158730158
+        },
+        {
+          "query": "robustel ev8100",
+          "clicks": 26.0,
+          "impressions": 53.0,
+          "ctr": 0.49056603773584906,
+          "position": 1.0
+        },
+        {
+          "query": "r1520",
+          "clicks": 25.0,
+          "impressions": 142.0,
+          "ctr": 0.176056338028169,
+          "position": 1.76056338028169
+        },
+        {
+          "query": "robustel r1520lg",
+          "clicks": 25.0,
+          "impressions": 60.0,
+          "ctr": 0.4166666666666667,
+          "position": 1.35
+        },
+        {
+          "query": "robustel eg5100",
+          "clicks": 24.0,
+          "impressions": 60.0,
+          "ctr": 0.4,
+          "position": 1.7333333333333334
+        },
+        {
+          "query": "robustel modem",
+          "clicks": 23.0,
+          "impressions": 149.0,
+          "ctr": 0.15436241610738255,
+          "position": 5.543624161073826
+        },
+        {
+          "query": "eg5120",
+          "clicks": 23.0,
+          "impressions": 52.0,
+          "ctr": 0.4423076923076923,
+          "position": 1.0
+        },
+        {
+          "query": "r5020",
+          "clicks": 21.0,
+          "impressions": 147.0,
+          "ctr": 0.14285714285714285,
+          "position": 5.034013605442177
+        },
+        {
+          "query": "lorawan gateway",
+          "clicks": 20.0,
+          "impressions": 3783.0,
+          "ctr": 0.005286809410520751,
+          "position": 8.410520750726937
+        },
+        {
+          "query": "robustel r5020 lite",
+          "clicks": 20.0,
+          "impressions": 58.0,
+          "ctr": 0.3448275862068966,
+          "position": 1.6896551724137931
+        },
+        {
+          "query": "robustel r3000 l4l",
+          "clicks": 19.0,
+          "impressions": 43.0,
+          "ctr": 0.4418604651162791,
+          "position": 1.2790697674418605
+        },
+        {
+          "query": "r1510",
+          "clicks": 18.0,
+          "impressions": 138.0,
+          "ctr": 0.13043478260869565,
+          "position": 2.6231884057971016
+        },
+        {
+          "query": "robustel r1510-4l",
+          "clicks": 18.0,
+          "impressions": 64.0,
+          "ctr": 0.28125,
+          "position": 1.6875
+        },
+        {
+          "query": "robustel r2110",
+          "clicks": 18.0,
+          "impressions": 38.0,
+          "ctr": 0.47368421052631576,
+          "position": 2.1315789473684212
+        },
+        {
+          "query": "robustel r3000 lite",
+          "clicks": 18.0,
+          "impressions": 29.0,
+          "ctr": 0.6206896551724138,
+          "position": 1.0
+        },
+        {
+          "query": "robustel rcms",
+          "clicks": 17.0,
+          "impressions": 84.0,
+          "ctr": 0.20238095238095238,
+          "position": 2.107142857142857
+        },
+        {
+          "query": "robustel 5g router",
+          "clicks": 17.0,
+          "impressions": 71.0,
+          "ctr": 0.23943661971830985,
+          "position": 1.6619718309859155
+        },
+        {
+          "query": "robustel r",
+          "clicks": 17.0,
+          "impressions": 70.0,
+          "ctr": 0.24285714285714285,
+          "position": 1.2714285714285714
+        },
+        {
+          "query": "robustel m1200",
+          "clicks": 17.0,
+          "impressions": 64.0,
+          "ctr": 0.265625,
+          "position": 1.890625
+        },
+        {
+          "query": "r3000-4l",
+          "clicks": 17.0,
+          "impressions": 36.0,
+          "ctr": 0.4722222222222222,
+          "position": 1.3888888888888888
+        },
+        {
+          "query": "r1510-4l",
+          "clicks": 16.0,
+          "impressions": 67.0,
+          "ctr": 0.23880597014925373,
+          "position": 3.1343283582089554
+        },
+        {
+          "query": "robustel r2000",
+          "clicks": 15.0,
+          "impressions": 99.0,
+          "ctr": 0.15151515151515152,
+          "position": 10.777777777777779
+        },
+        {
+          "query": "robustel routers",
+          "clicks": 15.0,
+          "impressions": 80.0,
+          "ctr": 0.1875,
+          "position": 4.8
+        },
+        {
+          "query": "robustel r5010",
+          "clicks": 15.0,
+          "impressions": 48.0,
+          "ctr": 0.3125,
+          "position": 1.5208333333333335
+        },
+        {
+          "query": "robustel mg460",
+          "clicks": 14.0,
+          "impressions": 30.0,
+          "ctr": 0.4666666666666667,
+          "position": 1.5
+        },
+        {
+          "query": "mg460",
+          "clicks": 13.0,
+          "impressions": 52.0,
+          "ctr": 0.25,
+          "position": 1.5576923076923077
+        },
+        {
+          "query": "ev8100",
+          "clicks": 13.0,
+          "impressions": 51.0,
+          "ctr": 0.2549019607843137,
+          "position": 6.980392156862745
+        },
+        {
+          "query": "robustel r2011",
+          "clicks": 13.0,
+          "impressions": 38.0,
+          "ctr": 0.34210526315789475,
+          "position": 2.6315789473684212
+        },
+        {
+          "query": "robustel r3000-4l",
+          "clicks": 12.0,
+          "impressions": 39.0,
+          "ctr": 0.3076923076923077,
+          "position": 2.230769230769231
+        },
+        {
+          "query": "r5020 lite",
+          "clicks": 12.0,
+          "impressions": 27.0,
+          "ctr": 0.4444444444444444,
+          "position": 1.0
+        },
+        {
+          "query": "robustel firmware",
+          "clicks": 12.0,
+          "impressions": 27.0,
+          "ctr": 0.4444444444444444,
+          "position": 5.074074074074074
+        },
+        {
+          "query": "rcms robustel",
+          "clicks": 11.0,
+          "impressions": 65.0,
+          "ctr": 0.16923076923076924,
+          "position": 3.476923076923077
+        },
+        {
+          "query": "robustel lorawan gateway",
+          "clicks": 11.0,
+          "impressions": 29.0,
+          "ctr": 0.3793103448275862,
+          "position": 5.9655172413793105
+        },
+        {
+          "query": "r1520-4l",
+          "clicks": 11.0,
+          "impressions": 23.0,
+          "ctr": 0.4782608695652174,
+          "position": 1.9565217391304348
+        },
+        {
+          "query": "r2010",
+          "clicks": 10.0,
+          "impressions": 200.0,
+          "ctr": 0.05,
+          "position": 3.27
+        },
+        {
+          "query": "lorawan ゲートウェイ",
+          "clicks": 9.0,
+          "impressions": 79.0,
+          "ctr": 0.11392405063291139,
+          "position": 2.0
+        },
+        {
+          "query": "r3000-l4l",
+          "clicks": 9.0,
+          "impressions": 26.0,
+          "ctr": 0.34615384615384615,
+          "position": 1.0
+        },
+        {
+          "query": "r5030",
+          "clicks": 9.0,
+          "impressions": 26.0,
+          "ctr": 0.34615384615384615,
+          "position": 1.6923076923076923
+        },
+        {
+          "query": "robustel r5030",
+          "clicks": 9.0,
+          "impressions": 24.0,
+          "ctr": 0.375,
+          "position": 1.0416666666666667
+        },
+        {
+          "query": "robustel eg5200",
+          "clicks": 9.0,
+          "impressions": 20.0,
+          "ctr": 0.45,
+          "position": 1.0
+        },
+        {
+          "query": "r1520 robustel",
+          "clicks": 9.0,
+          "impressions": 18.0,
+          "ctr": 0.5,
+          "position": 1.1111111111111112
+        },
+        {
+          "query": "r2120",
+          "clicks": 8.0,
+          "impressions": 71.0,
+          "ctr": 0.11267605633802817,
+          "position": 2.507042253521127
+        }
+      ]
+    },
+    "page_movers": [
+      {
+        "page": "https://robustel.com/product/r2011/",
+        "clicks": 29.0,
+        "impressions": 561.0,
+        "ctr": 0.05169340463458111,
+        "position": 8.008912655971479,
+        "previous_clicks": 79.0,
+        "previous_impressions": 571.0,
+        "clicks_delta": -50.0,
+        "impressions_delta": -10.0
+      },
+      {
+        "page": "https://robustel.com/product/r1520/",
+        "clicks": 176.0,
+        "impressions": 4053.0,
+        "ctr": 0.04342462373550456,
+        "position": 4.482358746607451,
+        "previous_clicks": 223.0,
+        "previous_impressions": 4658.0,
+        "clicks_delta": -47.0,
+        "impressions_delta": -605.0
+      },
+      {
+        "page": "https://robustel.com/product/r3000/",
+        "clicks": 209.0,
+        "impressions": 3572.0,
+        "ctr": 0.05851063829787234,
+        "position": 5.128499440089586,
+        "previous_clicks": 171.0,
+        "previous_impressions": 2986.0,
+        "clicks_delta": 38.0,
+        "impressions_delta": 586.0
+      },
+      {
+        "page": "https://robustel.com/what-is-a-lorawan-gateway-and-how-does-it-work/",
+        "clicks": 65.0,
+        "impressions": 10817.0,
+        "ctr": 0.00600905981325691,
+        "position": 8.003790330036054,
+        "previous_clicks": 35.0,
+        "previous_impressions": 11984.0,
+        "clicks_delta": 30.0,
+        "impressions_delta": -1167.0
+      },
+      {
+        "page": "https://support.robustel.com/portal/en/kb/articles/robustos-pro-uci-configuration-manual",
+        "clicks": 14.0,
+        "impressions": 1399.0,
+        "ctr": 0.010007147962830594,
+        "position": 5.504646175839886,
+        "previous_clicks": 42.0,
+        "previous_impressions": 1542.0,
+        "clicks_delta": -28.0,
+        "impressions_delta": -143.0
+      },
+      {
+        "page": "https://robustel.com/software/rcms/",
+        "clicks": 105.0,
+        "impressions": 4093.0,
+        "ctr": 0.025653554849743465,
+        "position": 4.8585389689714145,
+        "previous_clicks": 81.0,
+        "previous_impressions": 2654.0,
+        "clicks_delta": 24.0,
+        "impressions_delta": 1439.0
+      },
+      {
+        "page": "https://robustel.com/ja/",
+        "clicks": 28.0,
+        "impressions": 187.0,
+        "ctr": 0.1497326203208556,
+        "position": 3.855614973262032,
+        "previous_clicks": 50.0,
+        "previous_impressions": 282.0,
+        "clicks_delta": -22.0,
+        "impressions_delta": -95.0
+      },
+      {
+        "page": "https://robustel.com/product/eg3120e-esim-edge-computing-gateway/",
+        "clicks": 33.0,
+        "impressions": 351.0,
+        "ctr": 0.09401709401709402,
+        "position": 4.789173789173789,
+        "previous_clicks": 13.0,
+        "previous_impressions": 126.0,
+        "clicks_delta": 20.0,
+        "impressions_delta": 225.0
+      },
+      {
+        "page": "https://robustel.com/product/r3000-lite/",
+        "clicks": 85.0,
+        "impressions": 2342.0,
+        "ctr": 0.036293766011955594,
+        "position": 5.540563620836892,
+        "previous_clicks": 104.0,
+        "previous_impressions": 2194.0,
+        "clicks_delta": -19.0,
+        "impressions_delta": 148.0
+      },
+      {
+        "page": "https://support.robustel.com/portal/en/kb/articles/r3000-hardware-manual-11-11-2025",
+        "clicks": 61.0,
+        "impressions": 764.0,
+        "ctr": 0.07984293193717278,
+        "position": 5.602094240837697,
+        "previous_clicks": 42.0,
+        "previous_impressions": 616.0,
+        "clicks_delta": 19.0,
+        "impressions_delta": 148.0
+      },
+      {
+        "page": "https://robustel.com/es/",
+        "clicks": 39.0,
+        "impressions": 466.0,
+        "ctr": 0.08369098712446352,
+        "position": 6.3927038626609445,
+        "previous_clicks": 58.0,
+        "previous_impressions": 521.0,
+        "clicks_delta": -19.0,
+        "impressions_delta": -55.0
+      },
+      {
+        "page": "https://robustel.com/fr/product/r1510/",
+        "clicks": 8.0,
+        "impressions": 198.0,
+        "ctr": 0.04040404040404041,
+        "position": 8.474747474747474,
+        "previous_clicks": 26.0,
+        "previous_impressions": 103.0,
+        "clicks_delta": -18.0,
+        "impressions_delta": 95.0
+      },
+      {
+        "page": "https://robustel.com/product/eg5200/",
+        "clicks": 20.0,
+        "impressions": 567.0,
+        "ctr": 0.03527336860670194,
+        "position": 9.067019400352734,
+        "previous_clicks": 38.0,
+        "previous_impressions": 495.0,
+        "clicks_delta": -18.0,
+        "impressions_delta": 72.0
+      },
+      {
+        "page": "https://support.robustel.com/portal/en/kb/articles/r3000-firmware-download",
+        "clicks": 38.0,
+        "impressions": 355.0,
+        "ctr": 0.10704225352112676,
+        "position": 6.980281690140845,
+        "previous_clicks": 20.0,
+        "previous_impressions": 305.0,
+        "clicks_delta": 18.0,
+        "impressions_delta": 50.0
+      },
+      {
+        "page": "https://robustel.com/product/eg5101/",
+        "clicks": 6.0,
+        "impressions": 229.0,
+        "ctr": 0.026200873362445413,
+        "position": 7.432314410480349,
+        "previous_clicks": 24.0,
+        "previous_impressions": 230.0,
+        "clicks_delta": -18.0,
+        "impressions_delta": -1.0
+      },
+      {
+        "page": "https://robustel.com/product/r1520-global/",
+        "clicks": 33.0,
+        "impressions": 1877.0,
+        "ctr": 0.017581246670218435,
+        "position": 4.937666489078317,
+        "previous_clicks": 50.0,
+        "previous_impressions": 1500.0,
+        "clicks_delta": -17.0,
+        "impressions_delta": 377.0
+      },
+      {
+        "page": "https://robustel.com/product/eg5100/",
+        "clicks": 50.0,
+        "impressions": 748.0,
+        "ctr": 0.06684491978609626,
+        "position": 5.409090909090909,
+        "previous_clicks": 33.0,
+        "previous_impressions": 530.0,
+        "clicks_delta": 17.0,
+        "impressions_delta": 218.0
+      },
+      {
+        "page": "https://robustel.com/product/r1520-lg/",
+        "clicks": 54.0,
+        "impressions": 1094.0,
+        "ctr": 0.04936014625228519,
+        "position": 6.99908592321755,
+        "previous_clicks": 70.0,
+        "previous_impressions": 1292.0,
+        "clicks_delta": -16.0,
+        "impressions_delta": -198.0
+      },
+      {
+        "page": "https://robustel.com/product/mg460-gateway/",
+        "clicks": 46.0,
+        "impressions": 685.0,
+        "ctr": 0.06715328467153285,
+        "position": 6.418978102189781,
+        "previous_clicks": 62.0,
+        "previous_impressions": 793.0,
+        "clicks_delta": -16.0,
+        "impressions_delta": -108.0
+      },
+      {
+        "page": "https://robustel.com/product/ev8100/",
+        "clicks": 71.0,
+        "impressions": 859.0,
+        "ctr": 0.08265424912689173,
+        "position": 4.857974388824214,
+        "previous_clicks": 87.0,
+        "previous_impressions": 924.0,
+        "clicks_delta": -16.0,
+        "impressions_delta": -65.0
+      },
+      {
+        "page": "https://robustel.com/product/r1510/",
+        "clicks": 152.0,
+        "impressions": 2248.0,
+        "ctr": 0.06761565836298933,
+        "position": 4.4488434163701065,
+        "previous_clicks": 137.0,
+        "previous_impressions": 1851.0,
+        "clicks_delta": 15.0,
+        "impressions_delta": 397.0
+      },
+      {
+        "page": "https://support.robustel.com/portal/en/kb/articles/r1520-hardware-manual",
+        "clicks": 21.0,
+        "impressions": 399.0,
+        "ctr": 0.05263157894736842,
+        "position": 5.245614035087719,
+        "previous_clicks": 6.0,
+        "previous_impressions": 89.0,
+        "clicks_delta": 15.0,
+        "impressions_delta": 310.0
+      },
+      {
+        "page": "https://robustel.com/product/r/",
+        "clicks": 45.0,
+        "impressions": 861.0,
+        "ctr": 0.05226480836236934,
+        "position": 6.504065040650406,
+        "previous_clicks": 60.0,
+        "previous_impressions": 744.0,
+        "clicks_delta": -15.0,
+        "impressions_delta": 117.0
+      },
+      {
+        "page": "https://robustel.com/",
+        "clicks": 731.0,
+        "impressions": 9939.0,
+        "ctr": 0.07354864674514539,
+        "position": 7.695945266123353,
+        "previous_clicks": 745.0,
+        "previous_impressions": 13256.0,
+        "clicks_delta": -14.0,
+        "impressions_delta": -3317.0
+      },
+      {
+        "page": "https://support.robustel.com/portal/en/kb/articles/r2010-hardware-manual",
+        "clicks": 16.0,
+        "impressions": 318.0,
+        "ctr": 0.050314465408805034,
+        "position": 4.540880503144654,
+        "previous_clicks": 2.0,
+        "previous_impressions": 41.0,
+        "clicks_delta": 14.0,
+        "impressions_delta": 277.0
+      },
+      {
+        "page": "https://support.robustel.com/portal/en/kb/articles/how-to-firmware-update-via-web-ui-guide",
+        "clicks": 18.0,
+        "impressions": 1251.0,
+        "ctr": 0.014388489208633094,
+        "position": 7.443645083932854,
+        "previous_clicks": 5.0,
+        "previous_impressions": 341.0,
+        "clicks_delta": 13.0,
+        "impressions_delta": 910.0
+      },
+      {
+        "page": "https://robustel.com/product/lg3120e-lorawan-gateway/",
+        "clicks": 26.0,
+        "impressions": 303.0,
+        "ctr": 0.0858085808580858,
+        "position": 5.399339933993399,
+        "previous_clicks": 13.0,
+        "previous_impressions": 198.0,
+        "clicks_delta": 13.0,
+        "impressions_delta": 105.0
+      },
+      {
+        "page": "https://robustel.com/de/product/r5020/",
+        "clicks": 17.0,
+        "impressions": 214.0,
+        "ctr": 0.0794392523364486,
+        "position": 13.065420560747663,
+        "previous_clicks": 4.0,
+        "previous_impressions": 167.0,
+        "clicks_delta": 13.0,
+        "impressions_delta": 47.0
+      },
+      {
+        "page": "https://support.robustel.com/portal/en/kb/modem-router/r1500-series/r1520",
+        "clicks": 4.0,
+        "impressions": 339.0,
+        "ctr": 0.011799410029498525,
+        "position": 6.460176991150442,
+        "previous_clicks": 16.0,
+        "previous_impressions": 520.0,
+        "clicks_delta": -12.0,
+        "impressions_delta": -181.0
+      },
+      {
+        "page": "https://robustel.com/product/r1320lge/",
+        "clicks": 18.0,
+        "impressions": 227.0,
+        "ctr": 0.07929515418502203,
+        "position": 6.176211453744493,
+        "previous_clicks": 6.0,
+        "previous_impressions": 60.0,
+        "clicks_delta": 12.0,
+        "impressions_delta": 167.0
+      },
+      {
+        "page": "https://robustel.com/product/r3000-quad/",
+        "clicks": 24.0,
+        "impressions": 758.0,
+        "ctr": 0.0316622691292876,
+        "position": 6.8153034300791555,
+        "previous_clicks": 12.0,
+        "previous_impressions": 612.0,
+        "clicks_delta": 12.0,
+        "impressions_delta": 146.0
+      },
+      {
+        "page": "https://robustel.com/ja/product/r1520/",
+        "clicks": 8.0,
+        "impressions": 54.0,
+        "ctr": 0.14814814814814814,
+        "position": 4.2592592592592595,
+        "previous_clicks": 20.0,
+        "previous_impressions": 97.0,
+        "clicks_delta": -12.0,
+        "impressions_delta": -43.0
+      },
+      {
+        "page": "https://robustel.com/de/",
+        "clicks": 30.0,
+        "impressions": 348.0,
+        "ctr": 0.08620689655172414,
+        "position": 11.310344827586206,
+        "previous_clicks": 18.0,
+        "previous_impressions": 309.0,
+        "clicks_delta": 12.0,
+        "impressions_delta": 39.0
+      },
+      {
+        "page": "https://robustel.com/software/applications/edge2cloud/",
+        "clicks": 8.0,
+        "impressions": 300.0,
+        "ctr": 0.02666666666666667,
+        "position": 7.726666666666667,
+        "previous_clicks": 20.0,
+        "previous_impressions": 283.0,
+        "clicks_delta": -12.0,
+        "impressions_delta": 17.0
+      },
+      {
+        "page": "https://robustel.com/fr/product/ev8100/",
+        "clicks": 0.0,
+        "impressions": 87.0,
+        "ctr": 0.0,
+        "position": 23.850574712643677,
+        "previous_clicks": 11.0,
+        "previous_impressions": 79.0,
+        "clicks_delta": -11.0,
+        "impressions_delta": 8.0
+      },
+      {
+        "page": "https://robustel.com/industrial-raspberry-pi-alternative-robustel-eg5120-iot-gateway/",
+        "clicks": 19.0,
+        "impressions": 619.0,
+        "ctr": 0.030694668820678513,
+        "position": 6.693053311793215,
+        "previous_clicks": 9.0,
+        "previous_impressions": 1259.0,
+        "clicks_delta": 10.0,
+        "impressions_delta": -640.0
+      },
+      {
+        "page": "https://robustel.com/es/product/r5020/",
+        "clicks": 14.0,
+        "impressions": 125.0,
+        "ctr": 0.112,
+        "position": 7.12,
+        "previous_clicks": 4.0,
+        "previous_impressions": 69.0,
+        "clicks_delta": 10.0,
+        "impressions_delta": 56.0
+      },
+      {
+        "page": "https://support.robustel.com/portal/en/kb/software-manuals",
+        "clicks": 14.0,
+        "impressions": 145.0,
+        "ctr": 0.09655172413793103,
+        "position": 7.4206896551724135,
+        "previous_clicks": 4.0,
+        "previous_impressions": 91.0,
+        "clicks_delta": 10.0,
+        "impressions_delta": 54.0
+      },
+      {
+        "page": "https://robustel.com/fr/",
+        "clicks": 29.0,
+        "impressions": 206.0,
+        "ctr": 0.1407766990291262,
+        "position": 6.747572815533981,
+        "previous_clicks": 19.0,
+        "previous_impressions": 218.0,
+        "clicks_delta": 10.0,
+        "impressions_delta": -12.0
+      },
+      {
+        "page": "https://robustel.com/product/r2010/",
+        "clicks": 112.0,
+        "impressions": 1635.0,
+        "ctr": 0.06850152905198777,
+        "position": 6.247706422018348,
+        "previous_clicks": 103.0,
+        "previous_impressions": 1098.0,
+        "clicks_delta": 9.0,
+        "impressions_delta": 537.0
+      }
+    ],
+    "query_movers": [
+      {
+        "query": "rcms",
+        "clicks": 34.0,
+        "impressions": 2795.0,
+        "ctr": 0.012164579606440072,
+        "position": 4.9441860465116285,
+        "previous_clicks": 12.0,
+        "previous_impressions": 1679.0,
+        "clicks_delta": 22.0,
+        "impressions_delta": 1116.0
+      },
+      {
+        "query": "robustel r1510",
+        "clicks": 67.0,
+        "impressions": 258.0,
+        "ctr": 0.2596899224806202,
+        "position": 1.3604651162790697,
+        "previous_clicks": 89.0,
+        "previous_impressions": 279.0,
+        "clicks_delta": -22.0,
+        "impressions_delta": -21.0
+      },
+      {
+        "query": "robustel r1520",
+        "clicks": 74.0,
+        "impressions": 222.0,
+        "ctr": 0.3333333333333333,
+        "position": 1.3423423423423424,
+        "previous_clicks": 92.0,
+        "previous_impressions": 255.0,
+        "clicks_delta": -18.0,
+        "impressions_delta": -33.0
+      },
+      {
+        "query": "robustel ev8100",
+        "clicks": 26.0,
+        "impressions": 53.0,
+        "ctr": 0.49056603773584906,
+        "position": 1.0,
+        "previous_clicks": 41.0,
+        "previous_impressions": 78.0,
+        "clicks_delta": -15.0,
+        "impressions_delta": -25.0
+      },
+      {
+        "query": "robustel r5020",
+        "clicks": 47.0,
+        "impressions": 180.0,
+        "ctr": 0.2611111111111111,
+        "position": 3.716666666666667,
+        "previous_clicks": 33.0,
+        "previous_impressions": 155.0,
+        "clicks_delta": 14.0,
+        "impressions_delta": 25.0
+      },
+      {
+        "query": "robustel eg5120",
+        "clicks": 64.0,
+        "impressions": 152.0,
+        "ctr": 0.42105263157894735,
+        "position": 1.2960526315789473,
+        "previous_clicks": 77.0,
+        "previous_impressions": 192.0,
+        "clicks_delta": -13.0,
+        "impressions_delta": -40.0
+      },
+      {
+        "query": "eg5200",
+        "clicks": 3.0,
+        "impressions": 26.0,
+        "ctr": 0.11538461538461539,
+        "position": 2.769230769230769,
+        "previous_clicks": 13.0,
+        "previous_impressions": 43.0,
+        "clicks_delta": -10.0,
+        "impressions_delta": -17.0
+      },
+      {
+        "query": "robustel r2110",
+        "clicks": 18.0,
+        "impressions": 38.0,
+        "ctr": 0.47368421052631576,
+        "position": 2.1315789473684212,
+        "previous_clicks": 8.0,
+        "previous_impressions": 37.0,
+        "clicks_delta": 10.0,
+        "impressions_delta": 1.0
+      },
+      {
+        "query": "lorawan gateway",
+        "clicks": 20.0,
+        "impressions": 3783.0,
+        "ctr": 0.005286809410520751,
+        "position": 8.410520750726937,
+        "previous_clicks": 11.0,
+        "previous_impressions": 2378.0,
+        "clicks_delta": 9.0,
+        "impressions_delta": 1405.0
+      },
+      {
+        "query": "robustel r3000-l4l",
+        "clicks": 4.0,
+        "impressions": 25.0,
+        "ctr": 0.16,
+        "position": 1.8,
+        "previous_clicks": 13.0,
+        "previous_impressions": 36.0,
+        "clicks_delta": -9.0,
+        "impressions_delta": -11.0
+      },
+      {
+        "query": "r5010",
+        "clicks": 2.0,
+        "impressions": 99.0,
+        "ctr": 0.020202020202020204,
+        "position": 4.979797979797979,
+        "previous_clicks": 10.0,
+        "previous_impressions": 144.0,
+        "clicks_delta": -8.0,
+        "impressions_delta": -45.0
+      },
+      {
+        "query": "ロバステル",
+        "clicks": 7.0,
+        "impressions": 15.0,
+        "ctr": 0.4666666666666667,
+        "position": 1.0,
+        "previous_clicks": 15.0,
+        "previous_impressions": 34.0,
+        "clicks_delta": -8.0,
+        "impressions_delta": -19.0
+      },
+      {
+        "query": "robustel eg5100",
+        "clicks": 24.0,
+        "impressions": 60.0,
+        "ctr": 0.4,
+        "position": 1.7333333333333334,
+        "previous_clicks": 16.0,
+        "previous_impressions": 46.0,
+        "clicks_delta": 8.0,
+        "impressions_delta": 14.0
+      },
+      {
+        "query": "robustel r2011",
+        "clicks": 13.0,
+        "impressions": 38.0,
+        "ctr": 0.34210526315789475,
+        "position": 2.6315789473684212,
+        "previous_clicks": 21.0,
+        "previous_impressions": 48.0,
+        "clicks_delta": -8.0,
+        "impressions_delta": -10.0
+      },
+      {
+        "query": "robustel m1200",
+        "clicks": 17.0,
+        "impressions": 64.0,
+        "ctr": 0.265625,
+        "position": 1.890625,
+        "previous_clicks": 25.0,
+        "previous_impressions": 72.0,
+        "clicks_delta": -8.0,
+        "impressions_delta": -8.0
+      },
+      {
+        "query": "robustel lorawan gateway",
+        "clicks": 11.0,
+        "impressions": 29.0,
+        "ctr": 0.3793103448275862,
+        "position": 5.9655172413793105,
+        "previous_clicks": 4.0,
+        "previous_impressions": 8.0,
+        "clicks_delta": 7.0,
+        "impressions_delta": 21.0
+      },
+      {
+        "query": "esim router",
+        "clicks": 6.0,
+        "impressions": 277.0,
+        "ctr": 0.021660649819494584,
+        "position": 9.072202166064981,
+        "previous_clicks": 0.0,
+        "previous_impressions": 27.0,
+        "clicks_delta": 6.0,
+        "impressions_delta": 250.0
+      },
+      {
+        "query": "r2011",
+        "clicks": 3.0,
+        "impressions": 51.0,
+        "ctr": 0.058823529411764705,
+        "position": 5.450980392156863,
+        "previous_clicks": 9.0,
+        "previous_impressions": 83.0,
+        "clicks_delta": -6.0,
+        "impressions_delta": -32.0
+      },
+      {
+        "query": "r1520",
+        "clicks": 25.0,
+        "impressions": 142.0,
+        "ctr": 0.176056338028169,
+        "position": 1.76056338028169,
+        "previous_clicks": 31.0,
+        "previous_impressions": 125.0,
+        "clicks_delta": -6.0,
+        "impressions_delta": 17.0
+      },
+      {
+        "query": "eg5120 robustel",
+        "clicks": 1.0,
+        "impressions": 2.0,
+        "ctr": 0.5,
+        "position": 1.0,
+        "previous_clicks": 7.0,
+        "previous_impressions": 12.0,
+        "clicks_delta": -6.0,
+        "impressions_delta": -10.0
+      },
+      {
+        "query": "r5030",
+        "clicks": 9.0,
+        "impressions": 26.0,
+        "ctr": 0.34615384615384615,
+        "position": 1.6923076923076923,
+        "previous_clicks": 3.0,
+        "previous_impressions": 31.0,
+        "clicks_delta": 6.0,
+        "impressions_delta": -5.0
+      },
+      {
+        "query": "robustel lg5100",
+        "clicks": 2.0,
+        "impressions": 5.0,
+        "ctr": 0.4,
+        "position": 1.0,
+        "previous_clicks": 8.0,
+        "previous_impressions": 9.0,
+        "clicks_delta": -6.0,
+        "impressions_delta": -4.0
+      },
+      {
+        "query": "eg5120",
+        "clicks": 23.0,
+        "impressions": 52.0,
+        "ctr": 0.4423076923076923,
+        "position": 1.0,
+        "previous_clicks": 17.0,
+        "previous_impressions": 48.0,
+        "clicks_delta": 6.0,
+        "impressions_delta": 4.0
+      },
+      {
+        "query": "electric substation",
+        "clicks": 6.0,
+        "impressions": 1272.0,
+        "ctr": 0.0047169811320754715,
+        "position": 2.630503144654088,
+        "previous_clicks": 1.0,
+        "previous_impressions": 1202.0,
+        "clicks_delta": 5.0,
+        "impressions_delta": 70.0
+      },
+      {
+        "query": "r3000-l4l",
+        "clicks": 9.0,
+        "impressions": 26.0,
+        "ctr": 0.34615384615384615,
+        "position": 1.0,
+        "previous_clicks": 14.0,
+        "previous_impressions": 35.0,
+        "clicks_delta": -5.0,
+        "impressions_delta": -9.0
+      },
+      {
+        "query": "robustel eg5200",
+        "clicks": 9.0,
+        "impressions": 20.0,
+        "ctr": 0.45,
+        "position": 1.0,
+        "previous_clicks": 14.0,
+        "previous_impressions": 28.0,
+        "clicks_delta": -5.0,
+        "impressions_delta": -8.0
+      },
+      {
+        "query": "robustel r1510-4l",
+        "clicks": 18.0,
+        "impressions": 64.0,
+        "ctr": 0.28125,
+        "position": 1.6875,
+        "previous_clicks": 13.0,
+        "previous_impressions": 59.0,
+        "clicks_delta": 5.0,
+        "impressions_delta": 5.0
+      },
+      {
+        "query": "robustel r1520 manual",
+        "clicks": 7.0,
+        "impressions": 17.0,
+        "ctr": 0.4117647058823529,
+        "position": 1.1176470588235294,
+        "previous_clicks": 12.0,
+        "previous_impressions": 21.0,
+        "clicks_delta": -5.0,
+        "impressions_delta": -4.0
+      },
+      {
+        "query": "robustvpn",
+        "clicks": 4.0,
+        "impressions": 11.0,
+        "ctr": 0.36363636363636365,
+        "position": 1.0,
+        "previous_clicks": 9.0,
+        "previous_impressions": 15.0,
+        "clicks_delta": -5.0,
+        "impressions_delta": -4.0
+      },
+      {
+        "query": "r1520-4l",
+        "clicks": 11.0,
+        "impressions": 23.0,
+        "ctr": 0.4782608695652174,
+        "position": 1.9565217391304348,
+        "previous_clicks": 6.0,
+        "previous_impressions": 25.0,
+        "clicks_delta": 5.0,
+        "impressions_delta": -2.0
+      },
+      {
+        "query": "r5020 lite",
+        "clicks": 12.0,
+        "impressions": 27.0,
+        "ctr": 0.4444444444444444,
+        "position": 1.0,
+        "previous_clicks": 7.0,
+        "previous_impressions": 25.0,
+        "clicks_delta": 5.0,
+        "impressions_delta": 2.0
+      },
+      {
+        "query": "electrical substation",
+        "clicks": 5.0,
+        "impressions": 11516.0,
+        "ctr": 0.00043417853421326847,
+        "position": 6.362452240361237,
+        "previous_clicks": 9.0,
+        "previous_impressions": 4258.0,
+        "clicks_delta": -4.0,
+        "impressions_delta": 7258.0
+      },
+      {
+        "query": "smart roaming",
+        "clicks": 0.0,
+        "impressions": 393.0,
+        "ctr": 0.0,
+        "position": 13.73027989821883,
+        "previous_clicks": 4.0,
+        "previous_impressions": 553.0,
+        "clicks_delta": -4.0,
+        "impressions_delta": -160.0
+      },
+      {
+        "query": "rgps",
+        "clicks": 0.0,
+        "impressions": 406.0,
+        "ctr": 0.0,
+        "position": 6.990147783251231,
+        "previous_clicks": 4.0,
+        "previous_impressions": 274.0,
+        "clicks_delta": -4.0,
+        "impressions_delta": 132.0
+      },
+      {
+        "query": "r1510-4l",
+        "clicks": 16.0,
+        "impressions": 67.0,
+        "ctr": 0.23880597014925373,
+        "position": 3.1343283582089554,
+        "previous_clicks": 20.0,
+        "previous_impressions": 97.0,
+        "clicks_delta": -4.0,
+        "impressions_delta": -30.0
+      },
+      {
+        "query": "edge2cloud",
+        "clicks": 0.0,
+        "impressions": 46.0,
+        "ctr": 0.0,
+        "position": 3.217391304347826,
+        "previous_clicks": 4.0,
+        "previous_impressions": 63.0,
+        "clicks_delta": -4.0,
+        "impressions_delta": -17.0
+      },
+      {
+        "query": "r1520 robustel",
+        "clicks": 9.0,
+        "impressions": 18.0,
+        "ctr": 0.5,
+        "position": 1.1111111111111112,
+        "previous_clicks": 13.0,
+        "previous_impressions": 30.0,
+        "clicks_delta": -4.0,
+        "impressions_delta": -12.0
+      },
+      {
+        "query": "robustel r3000 l4l",
+        "clicks": 19.0,
+        "impressions": 43.0,
+        "ctr": 0.4418604651162791,
+        "position": 1.2790697674418605,
+        "previous_clicks": 15.0,
+        "previous_impressions": 33.0,
+        "clicks_delta": 4.0,
+        "impressions_delta": 10.0
+      },
+      {
+        "query": "robustel mg460",
+        "clicks": 14.0,
+        "impressions": 30.0,
+        "ctr": 0.4666666666666667,
+        "position": 1.5,
+        "previous_clicks": 18.0,
+        "previous_impressions": 38.0,
+        "clicks_delta": -4.0,
+        "impressions_delta": -8.0
+      },
+      {
+        "query": "robustel 4g router",
+        "clicks": 4.0,
+        "impressions": 23.0,
+        "ctr": 0.17391304347826086,
+        "position": 1.0434782608695652,
+        "previous_clicks": 0.0,
+        "previous_impressions": 26.0,
+        "clicks_delta": 4.0,
+        "impressions_delta": -3.0
+      }
+    ]
+  },
+  "linkedin": {
+    "months": {
+      "2026-06": {
+        "impressions": 9813,
+        "clicks": 325,
+        "engagements": 721,
+        "page_views": 527,
+        "follower_growth": 121
+      },
+      "2026-07": {
+        "impressions": 11850,
+        "clicks": 656,
+        "engagements": 1072,
+        "page_views": 637,
+        "follower_growth": 132
+      }
+    },
+    "top_posts": [
+      {
+        "title": "Gateways are becoming more important to the future of LoRaWAN? deployments.Not because every project needs to be complex",
+        "impressions": 1076.0,
+        "clicks": 18.0,
+        "engagement_rate": 0.038104091
+      },
+      {
+        "title": "Robustel are proud to support CURE Mannheim and the CM-26x Formula Student project.The team is using a Robustel R2011 as",
+        "impressions": 1014.0,
+        "clicks": 434.0,
+        "engagement_rate": 0.485207111
+      },
+      {
+        "title": "Getting building lighting (KNX), heating networks (BACnet), and wireless air sensors (LoRaWAN) to talk to each other usu",
+        "impressions": 719.0,
+        "clicks": 14.0,
+        "engagement_rate": 0.038942978
+      },
+      {
+        "title": "Exploring #LoRaWAN connectivity for industrial IoT, smart buildings, or remote monitoring applications In this video, w",
+        "impressions": 647.0,
+        "clicks": 24.0,
+        "engagement_rate": 0.06800618
+      },
+      {
+        "title": "In camera-heavy industrial sites, the question is not only “Can we connect the device?” It is also “How much raw data",
+        "impressions": 561.0,
+        "clicks": 8.0,
+        "engagement_rate": 0.044563279
+      },
+      {
+        "title": "Automation Expo 2026 Mumbai is underway!  Robustel is pleased to support our partner Nimbus Technologies at one of Asia",
+        "impressions": 537.0,
+        "clicks": 18.0,
+        "engagement_rate": 0.054003723
+      },
+      {
+        "title": "When sensors are spread across buildings, fields, factories, or city assets, wiring every data point is rarely the pract",
+        "impressions": 446.0,
+        "clicks": 20.0,
+        "engagement_rate": 0.071748883
+      },
+      {
+        "title": "Robustel is pleased to join Caim sea at SMM Hamburg 2026!At the show, we will present Robustel’s MG460 Maritime Network",
+        "impressions": 407.0,
+        "clicks": 6.0,
+        "engagement_rate": 0.034398034
+      }
+    ]
+  },
+  "limitations": [
+    "缺少 GCLID / lead_tracking_id：本报告只做趋势和市场诊断，不做单条询盘归因，不计算真实 Ads -> MQL ROI。",
+    "Google Ads conversions / all_conversions 不作为有效 lead 结论；CRM MQL 与 GA4 generate_lead_thankyou 分开报告。",
+    "LinkedIn 来自手动导出文件，日期为 UTC，平台提示最多有 2 天延迟。",
+    "公司资质分层基于公司名、国家和询盘上下文的管理判断；重点账户仍需销售核验最终用户、采购角色和项目阶段。"
+  ]
+}

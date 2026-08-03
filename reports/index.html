@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><title>Robustel 数字营销月报中心</title><style>
+    body{margin:0;background:#eef3f7;color:#172033;font:15px/1.6 'Microsoft YaHei','Segoe UI',Arial,sans-serif}
+    .wrap{max-width:1240px;margin:0 auto;padding:28px}.hero{background:linear-gradient(135deg,#005f8f,#00a6d6);color:white;border-radius:24px;padding:30px 34px;box-shadow:0 12px 34px rgba(0,95,143,.22)}
+    .hero h1{margin:0 0 8px;font-size:32px}.hero p{margin:6px 0;color:#e9f7ff}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:18px 0}.card{background:white;border:1px solid #dce5ee;border-radius:18px;padding:18px;box-shadow:0 8px 28px rgba(23,32,51,.07)}
+    .num{font-size:28px;font-weight:800}.pos{color:#2ead4b}.neg{color:#d64545}.tabs{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}.tabs button,.linkbtn{border:1px solid #b9e5ff;background:white;color:#005f8f;border-radius:999px;padding:9px 14px;font-weight:700;cursor:pointer;text-decoration:none}.tabs button.active{background:#005f8f;color:white;border-color:#005f8f}
+    iframe{width:100%;height:82vh;border:1px solid #dce5ee;border-radius:18px;background:white;box-shadow:0 8px 28px rgba(23,32,51,.07)}.panel{display:none}.panel.active{display:block}.note{color:#64748B;font-size:13px}
+    @media(max-width:900px){.cards{grid-template-columns:1fr}.wrap{padding:16px}iframe{height:76vh}}
+    </style></head>
+<body><main class="wrap">
+<section class="hero">
+  <h1>Robustel 数字营销月报中心</h1>
+  <p>集成 2026 年 6 月与 7 月正式 HTML 报告。默认打开 7 月；可切换查看 6 月。</p>
+  <p>公开页面不展示邮箱；报告只做趋势和市场诊断，不做单条询盘归因。</p>
+</section>
+<section class="cards">
+  <div class="card"><h2>2026年7月</h2><div class="num pos">MQL 90</div><p>较 6月 +45.2%；状态：绿色 🟢</p><p><a class="linkbtn" href="2026-07/">打开 7月报告</a></p></div>
+  <div class="card"><h2>2026年6月</h2><div class="num">MQL 62</div><p>较 5月 +6.9%；第 6 节已按公司资质和行业全景更新。</p><p><a class="linkbtn" href="2026-06/">打开 6月报告</a></p></div>
+</section>
+<section class="tabs">
+  <button class="active" data-target="jul">查看 7月报告</button>
+  <button data-target="jun">查看 6月报告</button>
+  <a class="linkbtn" href="2026-07/Robustel_2026-07_monthly_data.json">7月数据 JSON</a>
+</section>
+<section id="jul" class="panel active"><iframe title="2026年7月数字营销报告" src="2026-07/"></iframe></section>
+<section id="jun" class="panel"><iframe title="2026年6月数字营销报告" src="2026-06/"></iframe></section>
+<p class="note">如果嵌入视图在某些聊天或安全环境中被限制，请使用上方“打开报告”按钮直接打开单月页面。</p>
+</main>
+<script>
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.target).classList.add('active');
+  });
+});
+</script>
+</body></html>
